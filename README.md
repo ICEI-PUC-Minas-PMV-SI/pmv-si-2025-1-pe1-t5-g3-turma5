@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Bruno de Almeida Gomes Pardini
 * Júlia Rabelo Laine
 * Igor Rosa da Silva
-* Pedro Henrique Pereiara da Silva
+* Pedro Henrique Pereira da Silva
 * Matheus Henrique Caitano Faria
 
 
