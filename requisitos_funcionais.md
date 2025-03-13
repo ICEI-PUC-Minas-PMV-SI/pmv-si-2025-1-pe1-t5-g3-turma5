@@ -32,7 +32,6 @@
 
 | ID  | Restrição                                                |
 | --- | -------------------------------------------------------- |
-|
 | 01 | O projeto deve ser desenvolvido em HTML, CSS e JavaScript |
 | 02  | Não deve haver transações monetárias dentro do site      |
 
