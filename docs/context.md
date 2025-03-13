@@ -146,58 +146,6 @@ Esse processo ajuda a identificar o público alvo adequado, sendo possível aver
 
 Este arquivo contém os requisitos funcionais do sistema.
 
-| ID     | Descrição do Requisito                                                                              | Prioridade |
-| :----- | :---------------------------------------------------------------------------------------------------- | :--------- |
-| RF-001 | O sistema deve permitir o cadastro de novos usuários.                                                 | ALTA       |
-| RF-002 | O sistema deve permitir que usuários alterem seus cadastros.                                         | ALTA       |
-| RF-003 | O sistema deve permitir a busca de animais por geolocalização.                                           | ALTA       |
-| RF-004 | O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles.           | MÉDIA      |
-| RF-005 | O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção.                | ALTA       |
-| RF-006 | O sistema deve permitir que ONGs cadastrem animais disponíveis para adoção.                             | ALTA       |
-| RF-007 | O sistema deve permitir que adotantes filtrem animais com base em suas preferências.                  | ALTA       |
-| RF-008 | O sistema deve permitir o cadastro de voluntários interessados em apoiar as ONGs.                     | MÉDIA      |
-| RF-009 | O sistema deve oferecer um questionário para recomendar animais compatíveis ao adotante.            | MÉDIA      |
-| RF-010 | O sistema deve permitir que as ONGs avaliem o perfil dos adotantes antes da aprovação da adoção.     | MÉDIA      |
-| RF-011 | O sistema deve permitir a divulgação de eventos de adoção e feiras organizadas pelas ONGs.           | MÉDIA      |
-| RF-012 | O sistema deve possuir um sistema de notificações para atualizações sobre novos animais disponíveis e eventos. | BAIXA      |
-| RF-013 | O sistema deve permitir a visualização de perfis de potenciais adotantes e doadores.                 | MÉDIA      |
-| RF-014 | O sistema deve incorporar mecanismos de feedback para que usuários comentem suas experiências.          | BAIXA      |
-| RF-015 | O sistema deve oferecer informações sobre os termos de uso.                                          | MÉDIA      |
-| RF-016 | O sistema deve realizar a validação de cadastro de usuário via e-mail de confirmação.                | MÉDIA      |
-| RF-017 | O sistema deve permitir que ONGs gerenciem anúncios de eventos de adoção.                             | MÉDIA      |
-| RF-018 | O sistema deve permitir apenas usuários cadastrados a criarem, modificarem e atualizarem anúncios de adoção de pets. | ALTA       |
-| RF-019 | O sistema deve permitir a postagem de fotos com legendas dos pets pelos usuários.                       | MÉDIA      |
-
-# Requisitos Não Funcionais (RNF)
-
-Este arquivo contém os requisitos não funcionais do sistema.
-
-| ID     | Descrição do Requisito                                                                              | Prioridade |
-| :----- | :---------------------------------------------------------------------------------------------------- | :--------- |
-| RNF-001 | O sistema deve ser responsivo e funcional em celulares, tablets e computadores.                      | ALTA       |
-| RNF-002 | O tempo de resposta para buscas de animais na plataforma deve ser inferior a 3 segundos.             | MÉDIA      |
-| RNF-003 | O sistema deve garantir a segurança dos dados dos adotantes, ONGs e voluntários, seguindo a LGPD (Lei 13.709/2018). | ALTA       |
-| RNF-004 | A plataforma deve ter um design intuitivo para facilitar o uso por adotantes, ONGs e voluntários.    | MÉDIA      |
-| RNF-005 | A aplicação deve suportar um alto volume de acessos simultâneos sem comprometer o desempenho.        | MÉDIA      |
-| RNF-006 | A interface deve ser agradável, prática e fácil de usar.                                         | ALTA       |
-| RNF-007 | O sistema deve ser multiplataforma, funcionando em Windows, Linux e MacOS.                           | ALTA       |
-| RNF-008 | O aplicativo deve enviar um e-mail ao usuário para confirmação de registro.                         | BAIXA      |
-| RNF-009 | O sistema deve permitir a busca de animais por meio de filtros (exemplo: Estado e porte do animal). | BAIXA      |
-
-# Restrições
-
-Este arquivo contém as restrições do sistema.
-
-| ID   | Restrição                                                                |
-| :--- | :------------------------------------------------------------------------ |
-| 01   | O projeto deve ser entregue até o final do semestre.                     |
-| 02   | O sistema será desenvolvido apenas com HTML, CSS e JavaScript.         |
-| 03   | O sistema não poderá ter integração direta com pagamentos.                |
-| 04   | O sistema não terá suporte a vídeos de apresentação dos animais no primeiro lançamento. |
-| 05   | Apenas ONGs verificadas poderão cadastrar animais para adoção.            |
-
-
-
 
 
 
