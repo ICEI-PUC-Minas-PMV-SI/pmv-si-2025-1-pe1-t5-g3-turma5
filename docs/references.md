@@ -1,19 +1,23 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+- **INSTITUTO MVC.** Índice de abandono no Brasil. *Instituto MVC*, 2024. Disponível em: [link](https://institutomvc.org.br/site/index.php/2024/04/04/indice-de-abandono-no-brasil/). Acesso em: 24 fev. 2025.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
+- **CNN BRASIL.** Brasil tem quase 185 mil animais resgatados por ONGs, diz Instituto. *CNN Brasil*, 2024. Disponível em: [link](https://www.cnnbrasil.com.br/nacional/brasil-tem-quase-185-mil-animais-resgatados-por-ongs-diz-instituto/). Acesso em: 24 fev. 2025.
 
-Exemplos de referências bibliográficas:
+- **VALOR ECONÔMICO.** Mais de 30 milhões de animais vivem em situação de abandono no Brasil, mostra pesquisa da Mars Petcare. *Valor Econômico*, 2024. Disponível em: [link](https://valor.globo.com/conteudo-de-marca/mars-petcare/noticia/2024/12/13/mais-de-30-milhoes-de-animais-vivem-em-situacao-de-abandono-no-brasil-mostra-pesquisa-da-mars-petcare.ghtml). Acesso em: 24 fev. 2025.
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+- **CÃES E GATOS.** Apesar de ser crime, Brasil tem 30 milhões de animais abandonados. *Cães e Gatos*, 2024. Disponível em: [link](https://caesegatos.com.br/apesar-de-ser-crime-brasil-tem-30-milhoes-de-animais-abandonados/). Acesso em: 24 fev. 2025.
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+- **GOVERNO FEDERAL.** Maus-tratos a animais. *Ministério do Meio Ambiente*, 2024. Disponível em: [link](https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/direitos-animais/maus-tratos-a-animais#:~:text=Maltratar%20animais%20%C3%A9%20crime%20no,de%20dois%20a%20cinco%20anos). Acesso em: 24 fev. 2025.
 
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
+- **UNIVERSIDADE ESTADUAL DE PONTA GROSSA (UEPG).** Animais de rua: sobrecarga e limitações das ONGs e instituições independentes. *Elos UEPG*, 2024. Disponível em: [link](https://elos.sites.uepg.br/destaques/animais-de-rua-sobrecarga-e-limitacoes-das-ongs-e-instituicoes-independentes/). Acesso em: 2 fev. 2025.
 
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
+- **UNIÃO INTERNACIONAL PROTETORA DOS ANIMAIS (UIPA).** *Página oficial da UIPA*, 2024. Disponível em: [link](http://www.uipa.org.br/). Acesso em: 24 fev. 2025.
 
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
+- **SOCIEDADE UNIÃO INTERNACIONAL PROTETORA DOS ANIMAIS (SUIPA).** *Página oficial da SUIPA*, 2024. Disponível em: [link](https://www.suipa.org.br/). Acesso em: 24 fev. 2025.
 
+- **INSTITUTO LUISA MELL.** *Página oficial do Instituto Luisa Mell*, 2024. Disponível em: [link](https://institutoluisamell.com/). Acesso em: 24 fev. 2025.
+
+- **AMPARA ANIMAL PROTECTION.** *Página oficial da AMPARA Animal*, 2024. Disponível em: [link](https://institutoamparanimal.org.br/). Acesso em: 24 fev. 2025.
+
+---
