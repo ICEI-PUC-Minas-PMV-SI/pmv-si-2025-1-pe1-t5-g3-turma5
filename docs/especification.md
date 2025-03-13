@@ -10,29 +10,18 @@
 
 ### 1.2 Perfil 02: Doadores (ONGs)
 
-**Descrição:**  
-ONGs e pessoas físicas que realizam resgates e tem animais para doação
-
-**Necessidades:**   
-- Maior visibilidade para os animais disponíveis para adoção 
-- Possibilidade de avaliar o perfil do adotante
-- Plataforma para cadastrar e divulgar animais disponíveis para adoção
-- Facilidade na organização de eventos de adoção
-- Manter um registro centralizado de todos os adotantes para acompanhamento posterior
-- Criar conteúdos educativos sobre adoção responsável e cuidado com os animais 
+| **Descrição:** | ONGs e pessoas físicas que realizam resgates e têm animais para doação |
+|---------------|--------------------------------------------------------------|
+| **Necessidades:** | - Maior visibilidade para os animais disponíveis para adoção.  <br> - Possibilidade de avaliar o perfil do adotante.  <br> - Plataforma para cadastrar e divulgar animais disponíveis para adoção. <br> - Facilidade na organização de eventos de adoção. <br> - Manter um registro centralizado de todos os adotantes para acompanhamento posterior. <br> - Criar conteúdos educativos sobre adoção responsável e cuidado com os animais. |
 
 ### 1.3 Perfil 03: Voluntários
 
-**Descrição:**  
-Pessoa que deseja realizar trabalho voluntário em ONGs de resgate animal
-
-**Necessidades:**   
-- Conhecer as ONGs que atuam nas proximidades
-- Saber quais ONGs estão precisando de voluntários e para qual tipo de trabalho
-
+| **Descrição:** | Pessoa que deseja realizar trabalho voluntário em ONGs de resgate animal |
+|---------------|--------------------------------------------------------------|
+| **Necessidades:** | - Conhecer as ONGs que atuam nas proximidades.  <br> - Saber quais ONGs estão precisando de voluntários e para qual tipo de trabalho. |
 ## 2 Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... [PARTE]| QUERO/PRECISO ... [O QUE] |PARA ... [PARA QUE]                 |
 |--------------------|------------------------------------|----------------------------------------|
