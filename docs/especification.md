@@ -113,7 +113,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | 02   | O sistema será desenvolvido apenas com HTML, CSS e JavaScript.         |
 | 03   | O sistema não poderá ter integração direta com pagamentos.                |
 | 04   | O sistema não terá suporte a vídeos de apresentação dos animais no primeiro lançamento. |
-| 05   | Apenas ONGs verificadas poderão cadastrar animais para adoção.            |
-| 06   | Não permitir o compartilhamento de dados pessoais dos usuários sem consentimento explícito. |
-| 07   | Proibir a publicação de conteúdo ofensivo ou inadequado. |
-| 08   | Limitar o acesso a determinadas funcionalidades apenas para usuários autenticados (como cadastro de animais). |
+| 05   | Não permitir o compartilhamento de dados pessoais dos usuários sem consentimento explícito. |
+| 06   | Proibir a publicação de conteúdo ofensivo ou inadequado. |
+| 07   | Limitar o acesso a determinadas funcionalidades apenas para usuários autenticados (como cadastro de animais). |
