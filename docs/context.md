@@ -142,9 +142,6 @@ A primeira pergunta que você deve responder para conseguir obter sucesso em ati
 Com isto, é importante criar um acordo com as organizações não-governamentais para abordar pontos referentes abandono ou crueldade animal e aumentar a integração do projeto com a finalidade de ser possível uma compatibilidade de perfis entre adotado e adotantes mais expressa e assertiva a fim de expandir o projeto para mais abrigos e futuros tutores. 
 Esse processo ajuda a identificar o público alvo adequado, sendo possível averiguar planos com mais eficácia e favorecendo tanto os adotantes quanto os animais resgatados para benefícios mútuos, garantindo assim um projeto bem edificado com vantagem estratégica e estrutural.
 
-# Requisitos Funcionais (RF)
-
-Este arquivo contém os requisitos funcionais do sistema.
 
 
 
