@@ -4,13 +4,9 @@
 
 ### 1.1 Perfil 01: Adotantes
 
-**Descrição:**                       
-Pessoa maior de 18 anos que queira adotar um pet
-
-**Necessidades:**                
-- Plataforma prática e segura de divulgação de animais domésticos para adoção
-- Acesso a filtros de compatibilidade entre o estilo de vida do adotante e as necessidades do pet
-- Suporte na Pós-Adoção
+| **Descrição:** | Pessoa maior de 18 anos que queira adotar um pet |
+|---------------|---------------------------------------------|
+| **Necessidades:** | - Plataforma prática e segura de divulgação de animais domésticos para adoção.  <br> - Acesso a filtros de compatibilidade entre o estilo de vida do adotante e as necessidades do pet. <br> - Suporte na Pós-Adoção. |
 
 ### 1.2 Perfil 02: Doadores (ONGs)
 
