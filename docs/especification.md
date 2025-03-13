@@ -47,32 +47,32 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | **RF-001** | O sistema deve permitir o cadastro de novos usuários. |
 | **RF-002** | O sistema deve permitir que usuários alterem seus cadastros. |
 | **RF-003** | O sistema deve permitir a busca de animais por geolocalização. |
-| **RF-005** | O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção. |
-| **RF-006** | O sistema deve permitir que ONGs cadastrem animais disponíveis para adoção. |
-| **RF-007** | O sistema deve permitir que adotantes filtrem animais com base em suas preferências. |
-| **RF-018** | O sistema deve permitir apenas usuários cadastrados a criarem, modificarem e atualizarem anúncios de adoção de pets. |
+| **RF-004** | O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção. |
+| **RF-005** | O sistema deve permitir que ONGs cadastrem animais disponíveis para adoção. |
+| **RF-006** | O sistema deve permitir que adotantes filtrem animais com base em suas preferências. |
+| **RF-007** | O sistema deve permitir apenas usuários cadastrados a criarem, modificarem e atualizarem anúncios de adoção de pets. |
 
 ## **Prioridade MÉDIA**
 
 | ID       | Descrição do Requisito |
 |----------|------------------------|
-| **RF-004** | O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles. |
-| **RF-008** | O sistema deve permitir o cadastro de voluntários interessados em apoiar as ONGs. |
-| **RF-009** | O sistema deve oferecer um questionário para recomendar animais compatíveis ao adotante. |
-| **RF-010** | O sistema deve permitir que as ONGs avaliem o perfil dos adotantes antes da aprovação da adoção. |
-| **RF-011** | O sistema deve permitir a divulgação de eventos de adoção e feiras organizadas pelas ONGs. |
+| **RF-008** | O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles. |
+| **RF-009** | O sistema deve permitir o cadastro de voluntários interessados em apoiar as ONGs. |
+| **RF-010** | O sistema deve oferecer um questionário para recomendar animais compatíveis ao adotante. |
+| **RF-011** | O sistema deve permitir que as ONGs avaliem o perfil dos adotantes antes da aprovação da adoção. |
+| **RF-012** | O sistema deve permitir a divulgação de eventos de adoção e feiras organizadas pelas ONGs. |
 | **RF-013** | O sistema deve permitir a visualização de perfis de potenciais adotantes e doadores. |
-| **RF-015** | O sistema deve oferecer informações sobre os termos de uso. |
-| **RF-016** | O sistema deve realizar a validação de cadastro de usuário via e-mail de confirmação. |
-| **RF-017** | O sistema deve permitir que ONGs gerenciem anúncios de eventos de adoção. |
-| **RF-019** | O sistema deve permitir a postagem de fotos com legendas dos pets pelos usuários. |
+| **RF-014** | O sistema deve oferecer informações sobre os termos de uso. |
+| **RF-015** | O sistema deve realizar a validação de cadastro de usuário via e-mail de confirmação. |
+| **RF-016** | O sistema deve permitir que ONGs gerenciem anúncios de eventos de adoção. |
+| **RF-017** | O sistema deve permitir a postagem de fotos com legendas dos pets pelos usuários. |
 
 ## **Prioridade BAIXA**
 
 | ID       | Descrição do Requisito |
 |----------|------------------------|
-| **RF-012** | O sistema deve possuir um sistema de notificações para atualizações sobre novos animais disponíveis e eventos. |
-| **RF-014** | O sistema deve incorporar mecanismos de feedback para que usuários comentem suas experiências. |
+| **RF-018** | O sistema deve possuir um sistema de notificações para atualizações sobre novos animais disponíveis e eventos. |
+| **RF-019** | O sistema deve incorporar mecanismos de feedback para que usuários comentem suas experiências. |
 
 ---
 
@@ -84,17 +84,17 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | ID       | Descrição do Requisito |
 |----------|------------------------|
 | **RNF-001** | O sistema deve ser responsivo e funcional em celulares, tablets e computadores. |
-| **RNF-003** | O sistema deve garantir a segurança dos dados dos adotantes, ONGs e voluntários, seguindo a LGPD (Lei 13.709/2018). |
-| **RNF-006** | A interface deve ser agradável, prática e fácil de usar. |
-| **RNF-007** | O sistema deve ser multiplataforma, funcionando em Windows, Linux e MacOS. |
+| **RNF-002** | O sistema deve garantir a segurança dos dados dos adotantes, ONGs e voluntários, seguindo a LGPD (Lei 13.709/2018). |
+| **RNF-003** | A interface deve ser agradável, prática e fácil de usar. |
+| **RNF-004** | O sistema deve ser multiplataforma, funcionando em Windows, Linux e MacOS. |
 
 ## **Prioridade MÉDIA**
 
 | ID       | Descrição do Requisito |
 |----------|------------------------|
-| **RNF-002** | O tempo de resposta para buscas de animais na plataforma deve ser inferior a 3 segundos. |
-| **RNF-004** | A plataforma deve ter um design intuitivo para facilitar o uso por adotantes, ONGs e voluntários. |
-| **RNF-005** | A aplicação deve suportar um alto volume de acessos simultâneos sem comprometer o desempenho. |
+| **RNF-005** | O tempo de resposta para buscas de animais na plataforma deve ser inferior a 3 segundos. |
+| **RNF-006** | A plataforma deve ter um design intuitivo para facilitar o uso por adotantes, ONGs e voluntários. |
+| **RNF-007** | A aplicação deve suportar um alto volume de acessos simultâneos sem comprometer o desempenho. |
 
 ## **Prioridade BAIXA**
 
