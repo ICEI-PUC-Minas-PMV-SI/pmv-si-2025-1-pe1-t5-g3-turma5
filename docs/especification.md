@@ -2,7 +2,7 @@
 
 ## 1 Personas
 
-### Perfil 01: Adotantes
+### 1.1 Perfil 01: Adotantes
 
 **Descrição:**                       
 Pessoa maior de 18 anos que queira adotar um pet
@@ -12,7 +12,7 @@ Pessoa maior de 18 anos que queira adotar um pet
 - Acesso a filtros de compatibilidade entre o estilo de vida do adotante e as necessidades do pet
 - Suporte na Pós-Adoção
 
-### Perfil 02: Doadores (ONGs)
+### 1.2 Perfil 02: Doadores (ONGs)
 
 **Descrição:**  
 ONGs e pessoas físicas que realizam resgates e tem animais para doação
@@ -25,7 +25,7 @@ ONGs e pessoas físicas que realizam resgates e tem animais para doação
 - Manter um registro centralizado de todos os adotantes para acompanhamento posterior
 - Criar conteúdos educativos sobre adoção responsável e cuidado com os animais 
 
-### Perfil 03: Voluntários
+### 1.3 Perfil 03: Voluntários
 
 **Descrição:**  
 Pessoa que deseja realizar trabalho voluntário em ONGs de resgate animal
