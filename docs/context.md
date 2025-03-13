@@ -1,12 +1,10 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+O abandono de animais é um problema crescente no Brasil, onde milhões de cães e gatos vivem em situação de rua ou em abrigos superlotados. Enquanto o mercado pet cresce e se moderniza, o processo de adoção ainda enfrenta desafios como falta de informações organizadas, burocracia e dificuldades na conexão entre adotantes, ONGs e voluntários. Muitas pessoas dispostas a adotar não encontram um pet compatível com seu estilo de vida, enquanto as ONGs lidam com escassez de recursos e superlotação, tornando o processo ineficiente e prolongando o ciclo de abandono.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+O PetMatch surge como uma solução inovadora para otimizar essa interação, conectando adotantes, ONGs e voluntários em uma plataforma digital intuitiva. A ferramenta permitirá o cadastro de animais para adoção, um sistema de recomendação para encontrar o pet ideal e um espaço para voluntários oferecerem suporte às instituições. Além disso, contará com um termo de compromisso para garantir a posse responsável e minimizar o risco de abandono.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Ao integrar tecnologia e impacto social, o PetMatch facilitará adoções responsáveis, oferecerá suporte às ONGs e incentivará o engajamento de voluntários, promovendo uma solução eficiente e sustentável para reduzir o número de animais abandonados e melhorar a qualidade de vida tanto dos pets quanto das pessoas envolvidas no processo.
 
 ## Problema
 
