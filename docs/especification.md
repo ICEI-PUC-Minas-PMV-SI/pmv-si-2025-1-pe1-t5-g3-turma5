@@ -39,7 +39,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 # Requisitos Funcionais (RF)
 
-Este arquivo contém os requisitos funcionais do sistema, organizados por prioridade.
 
 ## **Prioridade ALTA**
 
@@ -79,7 +78,6 @@ Este arquivo contém os requisitos funcionais do sistema, organizados por priori
 
 # Requisitos Não Funcionais (RNF)
 
-Este arquivo contém os requisitos não funcionais do sistema, organizados por prioridade.
 
 ## **Prioridade ALTA**
 
@@ -109,7 +107,6 @@ Este arquivo contém os requisitos não funcionais do sistema, organizados por p
 
 # Restrições
 
-Este arquivo contém as restrições do sistema.
 
 | ID   | Restrição |
 |------|-----------|
