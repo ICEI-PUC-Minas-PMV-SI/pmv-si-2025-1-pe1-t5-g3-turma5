@@ -6,7 +6,7 @@ O PetMatch surge como uma solução inovadora para otimizar essa interação, co
 
 Ao integrar tecnologia e impacto social, o PetMatch facilitará adoções responsáveis, oferecerá suporte às ONGs e incentivará o engajamento de voluntários, promovendo uma solução eficiente e sustentável para reduzir o número de animais abandonados e melhorar a qualidade de vida tanto dos pets quanto das pessoas envolvidas no processo.
 
-## Problema
+## 1 Problema
 
 Hoje em dia, muitas ONGs que cuidam de animais enfrentam um grande desafio: lidar com o aumento de animais abandonados e resgatados. Esses abrigos estão frequentemente lotados, o que prejudica a qualidade dos cuidados que eles podem oferecer. Além disso, pessoas interessadas em adotar muitas vezes têm dificuldade em encontrar um animal que se encaixe nas suas preferências, como raça, tamanho ou temperamento. Essa dificuldade pode desestimular a adoção e contribuir para a superlotação dos abrigos. 
                            	
@@ -28,7 +28,7 @@ Apoiar as organizações que cuidam dos animais é tão importante quanto a pró
 
 Esses desafios geram um sentimento de vulnerabilidade em quem busca um lar seguro para um animal e também naqueles que dedicam seu tempo para ajudar essa causa tão nobre. Obstáculos e dúvidas podem minar boas intenções e atrasar iniciativas que têm o poder de transformar vidas. Essa realidade ressalta a necessidade de uma solução que centralize as informações e crie um ambiente pautado na confiança, empatia e colaboração. Cada conexão estabelecida nesse processo deve representar um passo rumo a um futuro mais harmonioso para humanos, animais e todas as ONGs envolvidas.
 
-## Objetivos
+## 2 Objetivos
 
 ### 2.1 Objetivo Geral
 
@@ -47,7 +47,7 @@ Desenvolver uma plataforma digital inovadora que otimize e facilite o processo d
 - Estabelecer um canal de comunicação eficiente entre voluntários, ONGs e adotantes.
 - Implementar um sistema de assinatura de termo de compromisso, garantindo que o adotante cumpra com as legislações vigentes e boas práticas de posse responsável, minimizando riscos de abandono e maus-tratos.
 
-## Justificativa
+## 3 Justificativa
 
 Embora o abandono e os maus-tratos a animais sejam crimes previstos na Lei nº 9.605/1998 (Lei de Crimes Ambientais), a pesquisa *Índice de Abandono Animal*, realizada pela Mars Petcare em 2022, revelou que existem cerca de 30,2 milhões de animais abandonados no Brasil, dos quais aproximadamente 185 mil vivem em abrigos. Esses números evidenciam a gravidade da situação, haja vista que os animais em situação de rua estão expostos à fome, maus-tratos, atropelamentos e doenças. Além disso, sem cuidados por parte dos tutores e do setor público, esses animais se reproduzem descontroladamente, agravando o ciclo de abandono e gerando um problema de saúde pública.
 
