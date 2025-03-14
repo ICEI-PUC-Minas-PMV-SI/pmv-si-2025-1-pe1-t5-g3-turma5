@@ -96,12 +96,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | **RNF-006** | A plataforma deve ter um design intuitivo para facilitar o uso por adotantes, ONGs e voluntários. |
 | **RNF-007** | A aplicação deve suportar um alto volume de acessos simultâneos sem comprometer o desempenho. |
 
-## **Prioridade BAIXA**
 
-| ID       | Descrição do Requisito |
-|----------|------------------------|
-| **RNF-008** | O aplicativo deve enviar um e-mail ao usuário para confirmação de registro. |
-| **RNF-009** | O sistema deve permitir a busca de animais por meio de filtros (exemplo: Estado e porte do animal). |
 
 ---
 
