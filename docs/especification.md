@@ -26,13 +26,13 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |EU COMO... [PARTE]| QUERO/PRECISO ... [O QUE] |PARA ... [PARA QUE]                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Adotante | encontrar um pet compatível com meu estilo de vida por meio de um sistema de recomendação.| garantir que o animal se adapte bem ao meu ambiente e rotina.              |
-|Adotante       | desejo salvar animais favoritos em uma lista separada              | possa voltar facilmente e comparar as opções com calma. |
+|Adotante       | uma ferramenta para salvar animais favoritos em uma lista separada              | garantir e comparar as opções com calma. |
 |Adotante       | acessar informações detalhadas sobre o histórico de saúde e comportamento do pet.| tomar uma decisão consciente e responsável na adoção. |
 |ONG/Protetor| manter um registro centralizado dos adotantes | realizar acompanhamento posterior à adoção |
-|ONG/Protetor| cadastrar animais disponíveis para adoção de forma rápida e organizada. | aumentar as chances de encontrar lares responsáveis para animais resgatados. |
+|ONG/Protetor| cad-astrar animais disponíveis para adoção de forma rápida e organizada. | aumentar as chances de encontrar lares responsáveis para animais resgatados. |
 |ONG/Protetor| divulgar eventos e feiras de adoção na plataforma. | alcançar mais pessoas interessadas e facilitar o processo de adoção. |
-|ONG/Protetor| quero acessar relatórios com dados sobre interações, visualizações e êxito nas doações | possamos otimizar nossa comunicação e aprimorar as campanhas, ajudando mais animais a encontrar um lar acolhedor. |
-|Voluntário| se cadastrar na plataforma para oferecer suporte a ONGs. | contribuir para o bem-estar dos animais por meio de ajuda direta. |
+|ONG/Protetor| acessar relatórios com dados sobre interações, visualizações e êxito nas doações | possamos otimizar nossa comunicação e aprimorar as campanhas, ajudando mais animais a encontrar um lar acolhedor. |
+|Voluntário| me cadastrar na plataforma para oferecer suporte a ONGs. | contribuir para o bem-estar dos animais por meio de ajuda direta. |
 |Voluntário| saber quais ONGs atuam na minha região e de qual tipo de ajuda necessitam | saber de que forma e a quem consigo ajudar. |
 |Voluntário| receber notificações e atualizações sobre as necessidades urgentes das ONGs em minha região | eu possa intervir rapidamente e oferecer ajuda de forma certeira.|
 
@@ -92,8 +92,8 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 | ID       | Descrição do Requisito |
 |----------|------------------------|
-| **RNF-005** | O tempo de resposta para buscas de animais na plataforma deve ser inferior a 3 segundos. |
-| **RNF-006** | A plataforma deve ter um design intuitivo para facilitar o uso por adotantes, ONGs e voluntários. |
+| **RNF-005** | O tempo de resposta para buscas de animais na plataforma deve ser inferior a 3 segundos de performace. |
+| **RNF-006** | A plataforma deve ter um design intuitivo para facilitar o uso por adotantes, ONGs e voluntários de navegabilidade. |
 | **RNF-007** | A aplicação deve suportar um alto volume de acessos simultâneos sem comprometer o desempenho. |
 
 
