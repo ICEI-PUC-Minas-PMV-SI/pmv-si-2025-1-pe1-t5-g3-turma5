@@ -46,26 +46,26 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |----------|------------------------|
 | **RF-001** | O sistema deve permitir o cadastro de novos usuários. |
 | **RF-002** | O sistema deve permitir que usuários alterem seus cadastros. |
-| **RF-003** | O sistema deve permitir a busca de animais por geolocalização. |
-| **RF-004** | O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção. |
-| **RF-005** | O sistema deve permitir que ONGs cadastrem animais disponíveis para adoção. |
-| **RF-006** | O sistema deve permitir que adotantes filtrem animais com base em suas preferências. |
-| **RF-007** | O sistema deve permitir apenas usuários cadastrados a criarem, modificarem e atualizarem anúncios de adoção de pets. |
+| **RF-003** | O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção. |
+| **RF-004** | O sistema deve permitir que ONGs cadastrem animais disponíveis para adoção. |
+| **RF-005** | O sistema deve permitir que adotantes filtrem animais com base em suas preferências. |
+| **RF-006** | O sistema deve permitir apenas usuários cadastrados a criarem, modificarem e atualizarem anúncios de adoção de pets. |
 
 ## **Prioridade MÉDIA**
 
 | ID       | Descrição do Requisito |
 |----------|------------------------|
-| **RF-008** | O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles. |
-| **RF-009** | O sistema deve permitir o cadastro de voluntários interessados em apoiar as ONGs. |
-| **RF-010** | O sistema deve oferecer um questionário para recomendar animais compatíveis ao adotante. |
-| **RF-011** | O sistema deve permitir que as ONGs avaliem o perfil dos adotantes antes da aprovação da adoção. |
-| **RF-012** | O sistema deve permitir a divulgação de eventos de adoção e feiras organizadas pelas ONGs. |
-| **RF-013** | O sistema deve permitir a visualização de perfis de potenciais adotantes e doadores. |
-| **RF-014** | O sistema deve oferecer informações sobre os termos de uso. |
-| **RF-015** | O sistema deve realizar a validação de cadastro de usuário via e-mail de confirmação. |
-| **RF-016** | O sistema deve permitir que ONGs gerenciem anúncios de eventos de adoção. |
-| **RF-017** | O sistema deve permitir a postagem de fotos com legendas dos pets pelos usuários. |
+| **RF-007** | O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles. |
+| **RF-008** | O sistema deve permitir o cadastro de voluntários interessados em apoiar as ONGs. |
+| **RF-009** | O sistema deve oferecer um questionário para recomendar animais compatíveis ao adotante. |
+| **RF-010** | O sistema deve permitir que as ONGs avaliem o perfil dos adotantes antes da aprovação da adoção. |
+| **RF-011** | O sistema deve permitir a divulgação de eventos de adoção e feiras organizadas pelas ONGs. |
+| **RF-012** | O sistema deve permitir a visualização de perfis de potenciais adotantes e doadores. |
+| **RF-013** | O sistema deve oferecer informações sobre os termos de uso. |
+| **RF-014** | O sistema deve realizar a validação de cadastro de usuário via e-mail de confirmação. |
+| **RF-015** | O sistema deve permitir que ONGs gerenciem anúncios de eventos de adoção. |
+| **RF-016** | O sistema deve permitir a postagem de fotos com legendas dos pets pelos usuários. |
+| **RF-017** | O sistema deve permitir a busca de animais por geolocalização. |
 
 ## **Prioridade BAIXA**
 
