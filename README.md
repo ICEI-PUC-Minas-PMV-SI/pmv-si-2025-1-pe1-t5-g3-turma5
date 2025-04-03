@@ -6,7 +6,9 @@
 
 `SEMESTRE: 1º`
 
-O PetMatch é uma plataforma cujo objetivo é conectar, de forma simples, intuitiva e moderna esses três grupos: pessoas interessadas em adotar um pet, ONGs que resgatam animais em situação de abandono e voluntários dispostos a auxiliar essas instituições no resgate e cuidado dos animais. A plataforma se propõe a ser uma ferramenta estratégica para ampliar a visibilidade dessas instituições, facilitar a arrecadação de recursos, estimular a adoção responsável e, consequentemente, reduzir os índices de abandono no Brasil.
+**PetMatch** é uma plataforma digital desenvolvida para facilitar a adoção responsável de animais, conectando ONGs, adotantes e voluntários de forma simples, intuitiva e eficiente. A ferramenta oferece recursos como cadastro de pets para adoção, sistema de recomendação com base no perfil do adotante, geolocalização de eventos e feiras, além da possibilidade de atuação de doadores independentes e voluntários no apoio às instituições de proteção animal.
+ 
+Com foco em usabilidade, empatia e impacto social, o PetMatch busca reduzir o número de animais abandonados e contribuir para um futuro mais digno e afetuoso entre humanos e pets.
 
 ## Integrantes
 
