@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O PetMatch é uma plataforma cujo objetivo é conectar, de forma simples, intuitiva e moderna esses três grupos: pessoas interessadas em adotar um pet, ONGs que resgatam animais em situação de abandono e voluntários dispostos a auxiliar essas instituições no resgate e cuidado dos animais. A plataforma se propõe a ser uma ferramenta estratégica para ampliar a visibilidade dessas instituições, facilitar a arrecadação de recursos, estimular a adoção responsável e, consequentemente, reduzir os índices de abandono no Brasil.
 
 ## Integrantes
 
