@@ -20,7 +20,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ## Wireframes
 
 ![HOME](https://github.com/user-attachments/assets/e6c98fc0-c96b-4ca9-a8fb-bce770476c69 "HOME")
-Página: Home
+## 🏠 Página: Home
  
 A página inicial do PetMatch apresenta a proposta da plataforma e incentiva a adoção responsável com uma interface amigável e intuitiva.
  
