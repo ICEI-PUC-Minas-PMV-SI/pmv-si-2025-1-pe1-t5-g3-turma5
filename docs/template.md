@@ -20,11 +20,13 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 Título
-![image](https://github.com/user-attachments/assets/89c93155-ad94-4082-adca-105269064088)
+![image](https://github.com/user-attachments/assets/82479153-66e1-495a-9e88-7f2d7ed79011)
+
 
 
 Corpo
-![image](https://github.com/user-attachments/assets/534a4bbf-39ad-44dd-a614-4122f52a0c1e)
+![image](https://github.com/user-attachments/assets/20402908-f913-4485-bda6-0d71eece84a3)
+
 
 
 
