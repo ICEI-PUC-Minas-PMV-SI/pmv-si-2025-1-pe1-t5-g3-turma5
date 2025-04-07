@@ -11,8 +11,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-![AdobeColor-My Color Theme (2)](https://github.com/user-attachments/assets/4d821dc4-f0da-4b4f-8e5c-c0874b0d96c1)
-te a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+![AdobeColor-My Color Theme menor](https://github.com/user-attachments/assets/39946afb-fdb2-45f4-84e2-56a74c85ef1d)
+
 
 
 ## Tipografia
