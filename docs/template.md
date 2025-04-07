@@ -11,7 +11,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-![AdobeColor-My Color Theme menor](https://github.com/user-attachments/assets/39946afb-fdb2-45f4-84e2-56a74c85ef1d)
+![Paleta de cores](https://github.com/user-attachments/assets/162874dc-51b5-4115-bd81-7edb5bc1399f)
+
 
 
 
