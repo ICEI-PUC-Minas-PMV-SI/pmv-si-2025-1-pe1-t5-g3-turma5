@@ -20,7 +20,7 @@ Rodapé do site
 ![Frame 1 (1)](https://github.com/user-attachments/assets/ae86bbee-b6bb-41a4-8a92-fa765e96fd64)
 
 ### Home
-Página inicial da plataforma
+Página inicial da plataforma.
 
 ![Untitled](https://github.com/user-attachments/assets/c42e3d97-f34b-495d-ab7a-3bdfa9586f93)
 
