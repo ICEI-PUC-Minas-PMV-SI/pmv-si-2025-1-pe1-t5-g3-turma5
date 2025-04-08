@@ -6,7 +6,7 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 ### Logo
-<img src="https://github.com/user-attachments/assets/32b14321-09da-45dd-904f-ad8748a9578e" width="100" />
+<img src="https://github.com/user-attachments/assets/32b14321-09da-45dd-904f-ad8748a9578e" width="200" />
 
 
 ### Cabeçalho
