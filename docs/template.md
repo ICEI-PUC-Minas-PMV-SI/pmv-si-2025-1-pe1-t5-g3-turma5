@@ -5,6 +5,23 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
+### Logo
+<img src="https://user-images.githubusercontent.com/SEU_ID/NOME_DA_IMAGEM.png" width="48" alt="Logo">
+
+### Cabeçalho
+Cabeçalho do site
+![Frame 1](https://github.com/user-attachments/assets/cfeb45ef-2d5b-4bdf-a6ad-5b7fa515c082)
+### Footer
+Rodapé do site
+
+![Frame 1 (1)](https://github.com/user-attachments/assets/ae86bbee-b6bb-41a4-8a92-fa765e96fd64)
+
+### Home
+Página inicial da plataforma
+
+![Untitled](https://github.com/user-attachments/assets/c42e3d97-f34b-495d-ab7a-3bdfa9586f93)
+
+Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
