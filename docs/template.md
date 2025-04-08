@@ -27,7 +27,7 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+Ícones que aprimoram a usabilidade das ferramentas.
 
 
 <img src="https://github.com/user-attachments/assets/71e30306-784a-4b70-a44c-742c25e08d2d" width="200" />
