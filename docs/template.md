@@ -27,6 +27,8 @@ Página inicial da plataforma
 
 
 ## Cores
+Palte de cores utilizadas.
+<br>
 
 ![Paleta de cores](https://github.com/user-attachments/assets/162874dc-51b5-4115-bd81-7edb5bc1399f)
 
