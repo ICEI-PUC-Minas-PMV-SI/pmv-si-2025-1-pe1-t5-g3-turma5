@@ -29,10 +29,11 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 Defina os ícones que serão utilizados e suas respectivas funções.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
+<img src="https://github.com/user-attachments/assets/71e30306-784a-4b70-a44c-742c25e08d2d" width="200" />
 
+<br>
+<br>
 > **Links Úteis**:
 >
 > -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
