@@ -24,9 +24,6 @@ Página inicial da plataforma
 
 ![Untitled](https://github.com/user-attachments/assets/c42e3d97-f34b-495d-ab7a-3bdfa9586f93)
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
-
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 
 ## Cores
