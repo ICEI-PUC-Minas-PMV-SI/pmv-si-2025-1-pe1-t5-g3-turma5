@@ -5,6 +5,8 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 
 ## Design
 ### Logo
+Logo do Site. <br>
+<br>
 <img src="https://github.com/user-attachments/assets/32b14321-09da-45dd-904f-ad8748a9578e" width="500" />
 
 
