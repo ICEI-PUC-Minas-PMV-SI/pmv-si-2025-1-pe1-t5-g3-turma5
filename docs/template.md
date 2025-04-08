@@ -37,7 +37,7 @@ Palte de cores utilizadas.
 
 ## Tipografia
 
-Fontes utilizadas.
+Fontes utilizadas. <br>
 <br>
 ![image](https://github.com/user-attachments/assets/389a6688-9b42-499e-a1a3-325a078aab17)
 
