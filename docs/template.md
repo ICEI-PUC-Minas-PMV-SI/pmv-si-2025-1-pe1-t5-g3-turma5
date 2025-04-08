@@ -15,7 +15,7 @@ Cabeçalho do site. <br>
 <br>
 ![Frame 1](https://github.com/user-attachments/assets/cfeb45ef-2d5b-4bdf-a6ad-5b7fa515c082)
 ### Footer
-Rodapé do site
+Rodapé do site.
 
 ![Frame 1 (1)](https://github.com/user-attachments/assets/ae86bbee-b6bb-41a4-8a92-fa765e96fd64)
 
