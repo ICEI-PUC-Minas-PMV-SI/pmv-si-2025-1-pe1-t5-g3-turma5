@@ -12,6 +12,7 @@ Logo do Site. <br>
 
 ### Cabeçalho
 Cabeçalho do site
+<br>
 ![Frame 1](https://github.com/user-attachments/assets/cfeb45ef-2d5b-4bdf-a6ad-5b7fa515c082)
 ### Footer
 Rodapé do site
