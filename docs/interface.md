@@ -1,20 +1,19 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+## 🧭 User Flow
 
-## User Flow
+Abaixo está o diagrama de fluxo de navegação entre as telas da plataforma **PetMatch**, representando o caminho que o usuário percorre desde a tela inicial até ações como login, cadastro, adoção de pets e interação com ONGs/voluntários.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Rectangle userflow](https://github.com/user-attachments/assets/4c1d2b27-923a-427c-9452-c6592934a9d0)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+### 🔗 Para ver detalhes como prototipação e navegação funcional do site, [clique aqui para acessar no Figma](https://www.figma.com/design/gvsee2GzI0uOv10Wmovzir/Untitled?node-id=167-2&m=dev&t=Nj8vfAggvbhRWyfX-1).
+<br>
+🖼️ E para visualizar todas as telas do projeto, [clique aqui para acessar no Figma](https://www.figma.com/design/gvsee2GzI0uOv10Wmovzir/Untitled?node-id=256-438&t=BwVnGSHAFqmEMKTd-1).
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+
+
 
 
 ## Wireframes
