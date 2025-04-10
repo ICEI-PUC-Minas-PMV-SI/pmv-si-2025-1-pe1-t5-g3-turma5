@@ -8,9 +8,8 @@ Abaixo está o diagrama de fluxo de navegação entre as telas da plataforma **P
 
 ![Rectangle userflow](https://github.com/user-attachments/assets/4c1d2b27-923a-427c-9452-c6592934a9d0)
 
-### 🔗 Para ver detalhes como prototipação e navegação funcional do site, [clique aqui para acessar no Figma](https://www.figma.com/design/gvsee2GzI0uOv10Wmovzir/Untitled?node-id=167-2&m=dev&t=Nj8vfAggvbhRWyfX-1).
-<br>
-🖼️ E para visualizar todas as telas do projeto, [clique aqui para acessar no Figma](https://www.figma.com/design/gvsee2GzI0uOv10Wmovzir/Untitled?node-id=256-438&t=BwVnGSHAFqmEMKTd-1).
+### 🔗 Para ver detalhes como prototipação e navegação funcional do site, [clique aqui para acessar no Figma](https://www.figma.com/proto/gvsee2GzI0uOv10Wmovzir/Untitled?node-id=167-2&t=Nj8vfAggvbhRWyfX-1).
+### 📂 Para visualizar todas as telas do projeto   [Clique aqui para acessar no Figma](https://www.figma.com/design/gvsee2GzI0uOv10Wmovzir/Untitled?node-id=256-438&t=BwVnGSHAFqmEMKTd-1)
 
 
 
