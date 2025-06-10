@@ -49,4 +49,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-// Removido código que alterava incorretamente os links
+
