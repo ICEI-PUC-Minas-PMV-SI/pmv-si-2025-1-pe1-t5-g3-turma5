@@ -37,12 +37,10 @@
           <a href="../blog/blog.html">Blog</a>
           <a href="../pagina protetores/protetores.html">Protetores</a>
 
-        </div>        <div class="menu-usuario">
-  <span id="nomeUsuario" class="nome-usuario">Olá, Usuário!</span>
-  <button class="btn-cadastro btn-perfil" onclick="location.href='../dados de usuario/dados usuario.html'">Meu Perfil</button>
-  <button class="btn-sair" onclick="logout()">Sair</button>
-</div>
-
+        </div>
+        <div class="menu-usuario">
+          <!-- This div will be populated by active-menu.js -->
+        </div>
       </nav>
     </div>
   </header>
@@ -159,31 +157,6 @@
 
   <footer class="rodape">
     <p><a href="#">Sobre</a> | <a href="#">Política de Privacidade</a></p>
-  </footer>  <script>
-    function logout() {
-      // Remove o usuário logado do localStorage antes de sair
-      localStorage.removeItem("usuarioLogado");
-      alert("Você saiu com sucesso!");
-      window.location.href = '../cadastro_login_catalogo/login.html';
-    }
-      // Adiciona funcionalidade aos botões "Quero adotar" dos cards
-    document.addEventListener('DOMContentLoaded', function() {
-      const botoesAdotar = document.querySelectorAll('.btn-adotar');
-      botoesAdotar.forEach(botao => {
-        botao.addEventListener('click', function() {
-          window.location.href = '../cadastro_login_catalogo/catalogo.html';
-        });
-      });
-
-      // Adiciona funcionalidade ao botão "Ver mais"
-      const botaoVerMais = document.querySelector('.btn-ver-mais');
-      if (botaoVerMais) {
-        botaoVerMais.addEventListener('click', function() {
-          window.location.href = '../cadastro_login_catalogo/catalogo.html';
-        });
-      }
-    });
-  </script>
-  <script src="../active-menu.js"></script>
+  </footer>  <script src="../active-menu.js"></script>
 </body>
 </html>

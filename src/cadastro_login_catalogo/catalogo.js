@@ -55,10 +55,60 @@ function criaPetCard(pet) {
   // Ícone de coração (favoritar)
   const fav = document.createElement('span');
   fav.classList.add('favoritar');
-  fav.innerHTML = '♡';
-  fav.addEventListener('click', () => {
-    fav.innerHTML = fav.innerHTML === '♡' ? '♥' : '♡';
-    fav.style.color = fav.innerHTML === '♥' ? '#e74c3c' : '#ccc';
+  fav.innerHTML = '♡'; // Initial state: empty heart
+
+  // Check if pet is already favorited on load
+  const petId = pet.id || pet.nome; // Use a unique identifier
+  let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
+  if (favoritos.some(favPet => (favPet.id || favPet.nome) === petId)) {
+    fav.innerHTML = '♥';
+    fav.style.color = '#e74c3c';
+  }
+
+  fav.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent card click event when clicking heart
+
+    const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+    if (!usuarioLogado) {
+      alert("Você precisa estar logado para favoritar pets.");
+      window.location.href = "../cadastro_login_catalogo/login.html"; // Adjust path as needed
+      return;
+    }
+
+    let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
+    const petIdentifier = pet.id || pet.nome; // Use the same identifier as in dadosusuario.js
+
+    // Check if pet is already in favorites
+    const petIndexInFavorites = favoritos.findIndex(
+      (favPet) => (favPet.id || favPet.nome) === petIdentifier
+    );
+
+    if (petIndexInFavorites > -1) {
+      // Pet is already favorited, so remove it
+      favoritos.splice(petIndexInFavorites, 1);
+      fav.innerHTML = '♡';
+      fav.style.color = '#ccc'; // Or your default color for non-favorited
+      alert(pet.nome + " removido dos favoritos.");
+    } else {
+      // Pet is not favorited, so add it
+      // Ensure all necessary pet details are included for dadosusuario.js
+      const petDataForFavorites = {
+        id: pet.id, // Make sure pets have a unique ID
+        nome: pet.nome,
+        imagem: pet.foto || '../caminho/para/imagem/padrao.png', // Match this path with dadosusuario.js
+        localizacao: pet.localizacao,
+        genero: pet.sexo,
+        // Add any other details needed by dadosusuario.js to render the card
+        especie: pet.especie,
+        idade: pet.idade,
+        // etc.
+      };
+      favoritos.push(petDataForFavorites);
+      fav.innerHTML = '♥';
+      fav.style.color = '#e74c3c';
+      alert(pet.nome + " adicionado aos favoritos!");
+    }
+    localStorage.setItem("favoritos", JSON.stringify(favoritos));
   });
   infoContainer.appendChild(fav);
 

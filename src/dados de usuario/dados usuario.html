@@ -44,9 +44,7 @@
 
         </div>
         <div class="menu-usuario">
-          <span id="nomeUsuario" class="nome-usuario">Olá, Usuário!</span>
-          <button class="btn-sair" onclick="location.href='../home definitiva/usuariologado.html'">Voltar</button>
-          <button class="btn-sair" onclick="logout()">Sair</button>
+          <!-- This div will be populated by active-menu.js -->
         </div>
       </nav>
     </div>
@@ -88,54 +86,8 @@
   <!-- Seção de cards -->
   <section class="favorites-section">
     <h2>Seus amiguinhos favoritos estão aqui:</h2>
-    <div class="cards-container">
-      <!-- Card 1 -->
-      <div class="pet-card">
-        <div class="pet-image">
-          <img src="download-140.png" alt="Beatriz">
-        </div>
-        <div class="pet-icons">
-          <img class="icon gender" src="female-24-dp-e-3-e-3-e-3-fill-0-wght-400-grad-0-opsz-24-40.svg" alt="Fêmea">
-          <img class="icon favorite" src="favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 16.png" alt="Favorito">
-        </div>
-        <div class="pet-info">
-          <div class="pet-name">Beatriz</div>
-          <div class="pet-location">São Paulo, SP</div>
-        </div>
-        <button class="adopt-button">Quero adotar</button>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="pet-card">
-        <div class="pet-image">
-          <img src="download-150.png" alt="Fred">
-        </div>
-        <div class="pet-icons">
-          <img class="icon gender" src="male-24-dp-e-3-e-3-e-3-fill-0-wght-400-grad-0-opsz-24-90.svg" alt="Macho">
-          <img class="icon favorite" src="favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 16.png" alt="Favorito">
-        </div>
-        <div class="pet-info">
-          <div class="pet-name">Fred</div>
-          <div class="pet-location">Bauru, SP</div>
-        </div>
-        <button class="adopt-button">Quero adotar</button>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="pet-card">
-        <div class="pet-image">
-          <img src="download-150.png" alt="Caramelo">
-        </div>
-        <div class="pet-icons">
-          <img class="icon gender" src="male-24-dp-e-3-e-3-e-3-fill-0-wght-400-grad-0-opsz-24-90.svg" alt="Macho">
-          <img class="icon favorite" src="favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 16.png" alt="Favorito">
-        </div>
-        <div class="pet-info">
-          <div class="pet-name">Caramelo</div>
-          <div class="pet-location">Ouro Preto, MG</div>
-        </div>
-        <button class="adopt-button">Quero adotar</button>
-      </div>
+    <div class="cards-container" id="favoritos-container">
+      <!-- Os cards de pets favoritados serão inseridos aqui pelo JavaScript -->
     </div>
   </section>
 </main>
@@ -147,6 +99,7 @@
         </div>
     </footer>
 <script src="dadosusuario.js"></script>
+<script src="../active-menu.js"></script>
 <script>
   function logout() {
     localStorage.removeItem("usuarioLogado");

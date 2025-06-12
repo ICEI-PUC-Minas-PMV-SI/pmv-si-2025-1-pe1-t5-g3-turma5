@@ -44,6 +44,7 @@ header {
 .menu-links {
   display: flex;
   justify-content: center;
+  align-items: center; 
   gap: 30px;
   flex: 1;
 }

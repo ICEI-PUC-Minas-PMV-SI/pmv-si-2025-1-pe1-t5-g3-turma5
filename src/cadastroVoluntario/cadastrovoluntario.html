@@ -14,6 +14,7 @@
       text-decoration: none !important;
       pointer-events: none;
     }
+
     .menu-link-active:hover {
       color: #888 !important;
     }
@@ -45,8 +46,9 @@
           <a href="../pagina protetores/protetores.html">Protetores</a>
 
         </div>
-        <a class="Entrar" href="../cadastro_login_catalogo/login.html">Entrar</a>
-        <a class="btn-cadastro" href="../cadastro_login_catalogo/cadastro.html">Cadastre-se</a>
+        <div class="menu-usuario">
+          <!-- This div will be populated by active-menu.js -->
+        </div>
       </nav>
     </div>
   </header>
@@ -64,8 +66,8 @@
         <p class="sub">Informações obrigatórias*</p>
         <div class="form-esquerda">
           <label>Nome*</label>
-          
-          <input type="text" placeholder="Nome Completo" /> 
+
+          <input type="text" placeholder="Nome Completo" />
           <label>Email*</label>
           <input type="email" placeholder="exemplo@gmail.com" />
           <label>Telefone*</label>
@@ -168,73 +170,67 @@ Ao marcar a caixa "Eu concordo com os termos", você declara que leu e concorda 
     <p><a href="#">Sobre</a> | <a href="#">Política de Privacidade</a></p>
   </footer>
   <script src="js/cadastrovoluntario.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const fotoVoluntarioInput = document.getElementById('fotoVoluntarioInput');
+      const imagePreview = document.getElementById('imagePreview');
+      const fileUploadVisual = document.querySelector('.file-upload-visual');
+      const removeImageButton = document.getElementById('removeImageButton');
 
-</body>
+      fotoVoluntarioInput.addEventListener('change', function (event) {
+        const file = event.target.files[0];
 
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const fotoVoluntarioInput = document.getElementById('fotoVoluntarioInput');
-    const imagePreview = document.getElementById('imagePreview');
-    const fileUploadVisual = document.querySelector('.file-upload-visual');
-    const removeImageButton = document.getElementById('removeImageButton');
-
-    fotoVoluntarioInput.addEventListener('change', function (event) {
-      const file = event.target.files[0];
-
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = function (e) {
-          imagePreview.src = e.target.result;
-          imagePreview.style.display = 'block';
-          if (fileUploadVisual) {
-            fileUploadVisual.style.display = 'none';
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = function (e) {
+            imagePreview.src = e.target.result;
+            imagePreview.style.display = 'block';
+            if (fileUploadVisual) {
+              fileUploadVisual.style.display = 'none';
+            }
+            removeImageButton.style.display = 'block';
           }
-          removeImageButton.style.display = 'block';
+          reader.readAsDataURL(file);
+        } else {
+          clearImagePreviewAndInput();
         }
-        reader.readAsDataURL(file);
-      } else {
-        clearImagePreviewAndInput();
-      }
-    });
-
-    removeImageButton.addEventListener('click', function () {
-      clearImagePreviewAndInput();
-    });
-
-    function clearImagePreviewAndInput() {
-      imagePreview.src = '#';
-      imagePreview.style.display = 'none';
-      if (fileUploadVisual) {
-        fileUploadVisual.style.display = 'flex';
-      }
-      removeImageButton.style.display = 'none';
-      fotoVoluntarioInput.value = '';
-    }
-  });
-
-  // MASCARA CPF
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const cpfInput = document.getElementById('cpfInput');
-
-    if (cpfInput) {
-      cpfInput.addEventListener('input', function (e) {
-        let value = e.target.value;
-        value = value.replace(/\D/g, '');
-        value = value.substring(0, 11);
-        // Adiciona o primeiro ponto (ex: 123 -> 123, 1234 -> 123.4)
-        value = value.replace(/^(\d{3})(\d)/, '$1.$2');
-        // Adiciona o segundo ponto (ex: 123.456 -> 123.456, 123.4567 -> 123.456.7)
-        value = value.replace(/^(\d{3})\.(\d{3})(\d)/, '$1.$2.$3');
-        // Adiciona o traço (ex: 123.456.789 -> 123.456.789, 123.456.7890 -> 123.456.789-0)
-        value = value.replace(/^(\d{3})\.(\d{3})\.(\d{3})(\d{1,2})$/, '$1.$2.$3-$4');
-        e.target.value = value;
       });
-    }
-  });
 
-</script>
+      removeImageButton.addEventListener('click', function () {
+        clearImagePreviewAndInput();
+      });
 
+      function clearImagePreviewAndInput() {
+        imagePreview.src = '#';
+        imagePreview.style.display = 'none';
+        if (fileUploadVisual) {
+          fileUploadVisual.style.display = 'flex';
+        }
+        removeImageButton.style.display = 'none';
+        fotoVoluntarioInput.value = '';
+      }
+    });
+
+    // MASCARA CPF
+    document.addEventListener('DOMContentLoaded', function () {
+      const cpfInput = document.getElementById('cpfInput');
+
+      if (cpfInput) {
+        cpfInput.addEventListener('input', function (e) {
+          let value = e.target.value;
+          value = value.replace(/\D/g, '');
+          value = value.substring(0, 11);
+          // Adiciona o primeiro ponto (ex: 123 -> 123, 1234 -> 123.4)
+          value = value.replace(/^(\d{3})(\d)/, '$1.$2');
+          // Adiciona o segundo ponto (ex: 123.456 -> 123.456, 123.4567 -> 123.456.7)
+          value = value.replace(/^(\d{3})\.(\d{3})(\d)/, '$1.$2.$3');
+          // Adiciona o traço (ex: 123.456.789 -> 123.456.789, 123.456.7890 -> 123.456.789-0)
+          value = value.replace(/^(\d{3})\.(\d{3})\.(\d{3})(\d{1,2})$/, '$1.$2.$3-$4');
+          e.target.value = value;
+        });
+      }
+    });
+  </script>
+  <script src="../active-menu.js"></script>
+</body>
 </html>

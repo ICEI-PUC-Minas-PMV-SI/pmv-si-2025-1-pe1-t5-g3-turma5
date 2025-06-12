@@ -58,6 +58,12 @@
     font-size: 18px;
     font-weight: bold;
     font-family: "Orelega One", serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .menu-links a:hover, a.Entrar:hover {
+    color: #54a09a;
+    transform: scale(1.05);
   }
   
   .usuario {
@@ -314,4 +320,56 @@ h3 {
   font-size: 24px;
   color: #693421;
   margin-bottom: 16px;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Link principal */
+.menu-link {
+  color: #693421;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Orelega One", serif;
+  padding: 10px; /* Ensure padding for clickable area */
+  display: block; /* Make it a block to ensure dimensions */
+  transition: color 0.3s ease;
+}
+
+/* Caixa oculta com os itens */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white; /* Test without !important first */
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  z-index: 10000; /* Increased z-index further */
+  top: 100%; /* Position directly below the parent */
+  left: 0; /* Align with the left edge of the parent */
+  padding: 10px 0;
+  border: 1px solid #ccc;
+}
+
+/* Cada link interno */
+.dropdown-content a {
+  color: #693421;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  font-family: "Orelega One", serif;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0eee6;
+}
+
+/* Mostra o dropdown quando passar o mouse */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
