@@ -19,7 +19,8 @@
   </style>
 </head>
 <body>
-  <header>    <div class="header-container">
+  <header>
+    <div class="header-container">
       <div class="logo">
         <a href="../home definitiva/home.html">
           <img src="LOGO 3 1.png" alt="PetMatch"/>
@@ -27,19 +28,21 @@
       </div>
       <nav class="menu">
         <div class="menu-links">
-          <a href="../cadastro_login_catalogo/catalogo.html" class="menu-link-active">Quero adotar</a>          <div class="dropdown">
-  <a href="#" class="menu-link">Quero ajudar</a>  <div class="dropdown-content">
-    <a href="../cadastroOng/cadastroong.html">Cadastrar uma Ong</a>
-    <a href="../cadastroVoluntario/cadastrovoluntario.html">Me voluntariar</a>
-  </div>
-</div>
-
+          <a href="../cadastro_login_catalogo/catalogo.html" class="menu-link-active">
+            Quero adotar
+          </a>
+          <div class="dropdown">
+            <a href="#" class="menu-link">Quero ajudar</a>
+            <div class="dropdown-content">
+              <a href="../cadastroOng/cadastroong.html">Cadastrar uma Ong</a>
+              <a href="../cadastroVoluntario/cadastrovoluntario.html">Me voluntariar</a>
+            </div>
+          </div>
           <a href="../blog/blog.html" class="menu-link">Blog</a>
           <a href="../pagina protetores/protetores.html" class="menu-link">Protetores</a>
-
         </div>
         <div class="menu-usuario">
-          <!-- This div will be populated by active-menu.js -->
+          <!-- populated by active-menu.js -->
         </div>
       </nav>
     </div>
@@ -48,7 +51,6 @@
   <main class="catalogo-container">
     <aside class="filtros">
       <h2>Filtros</h2>
-
       <label>Buscar por nome:
         <input type="text" id="inputBusca" placeholder="Digite um nome"/>
       </label>
@@ -59,7 +61,6 @@
           <option value="energia">Energia</option>
         </select>
       </label>
-
       <label>Espécie:
         <select id="filtroEspecie">
           <option value="">Todas</option>
@@ -96,36 +97,19 @@
           <option value="Alta">Alta</option>
         </select>
       </label>
-
       <button id="btnBuscar">Buscar</button>
       <button id="btnLimparFiltros">Limpar filtros</button>
     </aside>
 
+    <!-- Aqui serão inseridos os cards via JS -->
     <section class="lista-pets"></section>
   </main>
 
   <footer>
+    <!-- seu rodapé -->
   </footer>
 
-  <div id="modalDetalhes" class="modal hidden">
-    <div class="modal-overlay"></div>
-    <div class="modal-content">
-      <button class="modal-close">&times;</button>
-      <h2 id="modalNome"></h2>
-      <p><strong>Espécie:</strong> <span id="modalEspecie"></span></p>
-      <p><strong>Idade:</strong> <span id="modalIdade"></span> anos</p>
-      <p><strong>Localização:</strong> <span id="modalLocalizacao"></span></p>
-      <p><strong>Contato:</strong> <span id="modalContato"></span></p>
-      <p><strong>Sexo:</strong> <span id="modalGenero"></span></p>
-      <p><strong>Castrado:</strong> <span id="modalCastrado"></span></p>
-      <p><strong>Vacinas:</strong> <span id="modalVacinas"></span></p>
-      <p><strong>Energia:</strong> <span id="modalEnergia"></span></p>
-      <p><strong>Convive com Crianças:</strong> <span id="modalCriancas"></span></p>
-      <p><strong>Convive com Animais:</strong> <span id="modalAnimais"></span></p>
-      <p><strong>Comportamento:</strong> <span id="modalComportamento"></span></p>
-      <p><strong>Observações:</strong> <span id="modalObservacoes"></span></p>
-    </div>
-  </div>
+  <!-- Inclui o script que monta os cards e trata o redirecionamento -->
   <script src="catalogo.js"></script>
   <script src="../active-menu.js"></script>
 </body>
