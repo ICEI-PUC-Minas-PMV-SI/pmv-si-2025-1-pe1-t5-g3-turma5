@@ -3,7 +3,16 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!petForm) return;
 
   petForm.addEventListener("submit", (e) => {
-    e.preventDefault();
+    // Verifica se há um usuário logado no localStorage
+    const currentUser = localStorage.getItem('currentUser'); // ATENÇÃO: Ajuste 'currentUser' se a chave de login for outra
+
+    if (!currentUser) {
+      e.preventDefault(); // Impede o envio do formulário
+      alert('Você deve fazer login para cadastrar um pet.');
+      return; // Interrompe a execução da função aqui
+    }
+
+    e.preventDefault(); // Este já existia, mantém para evitar o comportamento padrão
 
     const nome          = document.getElementById("nomePet").value.trim();
     const especie       = document.getElementById("especiePet").value;
