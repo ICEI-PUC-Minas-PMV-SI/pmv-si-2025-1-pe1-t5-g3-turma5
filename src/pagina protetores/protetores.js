@@ -59,4 +59,46 @@ document.querySelectorAll("a").forEach(link => {
     link.setAttribute("href", "catalogo.html");
   }
 });
+document.addEventListener('DOMContentLoaded', () => {
+  const cardsContainer = document.querySelector('.cards');
+
+  // Limpa os cards de exemplo (se houver)
+  cardsContainer.innerHTML = '';
+
+  // Carrega ONGs do localStorage
+  const ongs = JSON.parse(localStorage.getItem('ongsPetMatch') || '[]');
+
+  if (ongs.length === 0) {
+    cardsContainer.innerHTML = '<p style="font-size:18px;">Nenhuma ONG cadastrada até o momento.</p>';
+    return;
+  }
+
+  // Cria cada card dinamicamente
+  ongs.forEach(ong => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+
+    const img = document.createElement('img');
+    img.src = ong.foto || 'https://via.placeholder.com/286x240?text=Sem+Imagem';
+    img.alt = ong.nome;
+
+    const title = document.createElement('h3');
+    title.textContent = ong.nome;
+
+    const button = document.createElement('button');
+    button.classList.add('btn-localizacao');
+    button.innerHTML = `ONDE ESTAMOS? <img src="vector0.svg" alt="Seta">`;
+
+    // (Opcional) Adicione ação ao botão "Onde Estamos?"
+    button.addEventListener('click', () => {
+      alert(`Esta ONG está localizada em: ${ong.cidade}`);
+    });
+
+    // Monta o card
+    card.appendChild(img);
+    card.appendChild(title);
+    card.appendChild(button);
+    cardsContainer.appendChild(card);
+  });
+});
 
