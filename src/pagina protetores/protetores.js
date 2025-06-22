@@ -56,7 +56,7 @@ document.querySelectorAll("a").forEach(link => {
 });
 document.querySelectorAll("a").forEach(link => {
   if (link.textContent.trim().toLowerCase() === "quero adotar") {
-    link.setAttribute("href", "catalogo.html");
+    link.setAttribute("href", "../cadastro_login_catalogo/catalogo.html");
   }
 });
 document.addEventListener('DOMContentLoaded', () => {

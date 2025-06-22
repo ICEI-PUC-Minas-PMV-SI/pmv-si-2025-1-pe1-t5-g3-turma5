@@ -7,6 +7,14 @@ const samplePets = [
   { id: 'ex3', nome: 'Luna', sexo: 'Fêmea', foto: 'animalteste.png', especie: 'Gato',     idade: '3', porte: 'Pequeno',    localizacao: 'Belo Horizonte', nivelEnergia: 'Baixa', conviveCriancas: 'Sim', conviveAnimais: 'Não', castrado: 'Sim', historicoVac: 'V8', comportamento: 'Dorminhoca', observacoes: '' }
 ];
 
+function getFavoritos() {
+  return JSON.parse(localStorage.getItem('favoritosPetMatch')) || [];
+}
+
+function setFavoritos(favs) {
+  localStorage.setItem('favoritosPetMatch', JSON.stringify(favs));
+}
+
 function criaPetCard(pet) {
   const card = document.createElement('div');
   card.classList.add('pet-card');
@@ -39,16 +47,27 @@ function criaPetCard(pet) {
 
   const fav = document.createElement('span');
   fav.classList.add('favoritar');
-  fav.innerHTML = '♡';
+  const favoritos = getFavoritos();
+  if (favoritos.includes(pet.id)) {
+    fav.innerHTML = '♥';
+    fav.style.color = '#e74c3c';
+  } else {
+    fav.innerHTML = '♡';
+    fav.style.color = '#ccc';
+  }
   fav.addEventListener('click', e => {
     e.stopPropagation();
-    if (fav.innerHTML === '♡') {
-      fav.innerHTML = '♥';
-      fav.style.color = '#e74c3c';
-    } else {
+    let favoritos = getFavoritos();
+    if (favoritos.includes(pet.id)) {
+      favoritos = favoritos.filter(id => id !== pet.id);
       fav.innerHTML = '♡';
       fav.style.color = '#ccc';
+    } else {
+      favoritos.push(pet.id);
+      fav.innerHTML = '♥';
+      fav.style.color = '#e74c3c';
     }
+    setFavoritos(favoritos);
   });
   info.appendChild(fav);
 
