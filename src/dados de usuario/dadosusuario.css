@@ -280,6 +280,23 @@
   background-color: #3d7f75;
 }
 
+.remove-favorite-button {
+  margin-top: 8px;
+  margin: 12px;
+  background-color: #56A89D;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.remove-favorite-button:hover {
+  background-color: #3d7f75;
+}
+
 footer {
   height: 48px;
   background: orange;
