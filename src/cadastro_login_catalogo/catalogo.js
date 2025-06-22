@@ -39,35 +39,16 @@ function criaPetCard(pet) {
 
   const fav = document.createElement('span');
   fav.classList.add('favoritar');
-
-  // Verifica se já está favoritado
-  let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
-  const jaFavoritado = favoritos.some(f => f.id === pet.id);
-  fav.innerHTML = jaFavoritado ? '♥' : '♡';
-  fav.style.color = jaFavoritado ? '#e74c3c' : '#ccc';
-
+  fav.innerHTML = '♡';
   fav.addEventListener('click', e => {
     e.stopPropagation();
-    let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
-    const index = favoritos.findIndex(f => f.id === pet.id);
-    if (index === -1) {
-      // Adiciona aos favoritos
-      favoritos.push({
-        id: pet.id,
-        nome: pet.nome,
-        genero: pet.sexo,
-        imagem: pet.foto,
-        localizacao: pet.localizacao
-      });
+    if (fav.innerHTML === '♡') {
       fav.innerHTML = '♥';
       fav.style.color = '#e74c3c';
     } else {
-      // Remove dos favoritos
-      favoritos.splice(index, 1);
       fav.innerHTML = '♡';
       fav.style.color = '#ccc';
     }
-    localStorage.setItem('favoritos', JSON.stringify(favoritos));
   });
   info.appendChild(fav);
 

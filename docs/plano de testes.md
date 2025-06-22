@@ -25,7 +25,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-001:	O sistema deve permitir o cadastro de novos usuários.</li>
     <li>RF-003	O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção..</li>
     <li>RF-004	O sistema deve permitir que ONGs cadastrem animais disponíveis para adoção.</li>
-    <li>RF-007:	O site deve permitir ao usuário visualizar os detalhes do livro.</li>
    </ul>
   </td>
   <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
@@ -38,7 +37,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Maria</td>
+  <td>Matheus</td>
  </tr>
 </table>
 
@@ -52,24 +51,25 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar o funcionamento do filtro de pesquisa</td>
+  <td>CT-02: Verificar o funcionamento do cadastro de pets</td>
   <td>
    <ul>
-    <li>RF-003:	O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros e disciplinas das tutorias      disponíveis.</li>
+    <li>RF-003	O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção.</li>
+    <li>RF-004	O sistema deve permitir que ONGs cadastrem animais disponíveis para adoção.</li>
    </ul>
   </td>
-  <td>Verificar se o filtro de pesquisa está recuperando os dados inseridos pelo usuário</td>
+  <td>Verificar se o cadastro está sendo salvo com os dados inseridos pelo usuário</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar na página Livros.</li>
-    <li>Digitar no filtro de pesquisa algum dado presente na página Livros e verificar se o resultado é exibido na página.</li>
+    <li>Clicar na página Quero divulgar um animal</li>
+    <li>Preencher o cadastro</li>
    </ol>
    </td>
-  <td>Os dados inseridos no filtro de pesquisa devem mostrar o livro onde há o dado informado.</td>
-  <td>Maria</td>
+  <td>O cadastro deve ser salvo no localStorage e o pet cadastrado deve aparecer na página Quero adotar</td>
+  <td>Luiz</td>
  </tr>
 </table>
 
@@ -83,11 +83,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>  
  </tr>
  <tr>
-  <td>CT-03: Verificar detalhes dos livros</td>
+  <td>CT-03: Verificar o funcionamento da página de adoção de pets</td>
   <td>
    <ul>
-    <li>RF-006:	O site deve apresentar, para cada livro, uma imagem correspondente à capa.</li>
-    <li>RF-007:	O site deve permitir ao usuário visualizar os detalhes do livro.</li>
+    <li>RF-003	O sistema deve permitir que usuários criem páginas para animais disponíveis para adoção.</li>
+    <li>RF-005	O sistema deve permitir que adotantes filtrem animais com base em suas preferências.</li>
+    <li>RF-007	O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles.</li>
    </ul>
   </td>
   <td>Verificar se todas as informações referentes aos livros estão disponíveis na página Livros</td>
@@ -96,12 +97,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar na página Livros.</li>
-    <li>Visualizar as informações referentes aos livros disponíveis na página.</li>
+    <li>Clicar na página Quero adotar</li>
+    <li>Visualizar os pets cadastrados e utilizar os filtros disponíveis</li>
    </ol>
    </td>
-  <td>Todas as informações, incluindo imagens das capas, referentes aos livros estão disponíveis na página Livros.</td>
-  <td>João</td>
+  <td>O usuário deve conseguir visualizar os pets, favoritá-los, utilizar os filtros disponíveis e também ser direcionado a uma página exclusiva do pet ao clicar em "quero adotar" no card do pet</td>
+  <td>Julia</td>
  </tr>
 </table>
 
@@ -118,7 +119,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-04: Verificar o cadastro de usuários</td>
   <td>
    <ul>
-    <li>RF-001:	 O site deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-001	O sistema deve permitir o cadastro de novos usuários.</li>
    </ul>
   </td>
   <td>Verificar se o cadastro está sendo feito corretamente.</td>
@@ -128,11 +129,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li> Clicar em "Cadastre-se", no Menu.</li>
-    <li>Preencher o formulário e clicar em “Cadastrar”.</li>
+    <li>Preencher o formulário e clicar em “Continuar”.</li>
    </ol>
    </td>
-  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve aparecer a mensagem "Usuário cadastrado com sucesso".</td>
-  <td>Silvia</td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve aparecer a mensagem "Cadastro realizado com sucesso!".</td>
+  <td>Igor</td>
  </tr>
 </table>
 
@@ -159,11 +160,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li>Clicar em “Entrar”, no menu.</li>
-    <li>Preencher seus dados e clicar em “Entrar”.</li>
+    <li>Preencher seus dados e clicar em “Continuar”.</li>
    </ol>
    </td>
-  <td>Após o login, o usuário deverá ser redirecionado para a sua página de perfil.</td>
-  <td>Maria</td>
+  <td>Após o login, o usuário deverá ser redirecionado para a home.</td>
+  <td>Matheus</td>
  </tr>
 
  <table>
@@ -176,29 +177,30 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
   <tr>
-  <td>CT-06: Verificar o cadastro de livros</td>
+  <td>CT-06: Verificar o perfil do usuário</td>
   <td>
    <ul>
-   <li>RF-004	O site deve permitir ao usuário fazer o cadastro de livros.</li>
+   <li>RF-002	O sistema deve permitir que usuários alterem seus cadastros.</li>
+   <li>RF-007	O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles.</li>
    </ul>
   </td>
-  <td>Verificar se o cadastro de livros está sendo feito corretamente. </td>
+  <td>Verificar se o usuário pode alterar seus dados e visualizar seus pets favoritos </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li>Clicar em “Entrar”, no menu.</li>
-    <li>Preencher seus dados e clicar em “Entrar”.</li>
-    <li>Visualizar a página Perfil.</li>
-    <li>Clicar em “Cadastro de livros”, no menu.</li>
-    <li>Visualizar a página Cadastro de Livros.</li>
-    <li>Inserir as informações sobre o livro.</li>
-    <li>Clicar em “Cadastrar”.</li>
+    <li>Preencher seus dados e clicar em “Continuar”.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em “Meu perfil”, no menu.</li>
+    <li>Visualizar a página Meu perfil</li>
+    <li>Inserir as alterações de cadastro</li>
+    <li>Clicar em “Continuar”.</li>
    </ol>
    </td>
-  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve aparecer a mensagem "Livro cadastrado com sucesso".</td>
-  <td>João</td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Continuar", deve aparecer a mensagem "Dados atualizados com sucesso!".</td>
+  <td>Júlia</td>
  </tr>
 </table>
 
@@ -212,29 +214,24 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
   <tr>
-  <td>CT-07: Verificar o cadastro de tutores</td>
+  <td>CT-07: Verificar o cadastro de voluntários</td>
   <td>
    <ul>
-   <li>RF-005	O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.</li>
+   <li>RF-008	O sistema deve permitir o cadastro de voluntários interessados em apoiar as ONGs.</li>
    </ul>
   </td>
-  <td>Verificar se o cadastro de tutores está sendo feito corretamente. </td>
+  <td>Verificar se o cadastro de voluntarios está sendo feito corretamente. </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em “Entrar”, no menu.</li>
-    <li>Preencher seus dados e clicar em “Entrar”.</li>
-    <li>Visualizar a página Perfil.</li>
-    <li>Clicar em “Cadastro de tutores”, no menu.</li>
-    <li>Visualizar a página Cadastro de Tutores.</li>
-    <li>Inserir as informações sobre o tutor.</li>
-    <li>Clicar em “Cadastrar”.</li>
+    <li>Clicar em “Quero ajudar” e "Me voluntariar", no menu.</li>
+    <li>Preencher seus dados e clicar em “Enviar cadastro”.</li>
    </ol>
    </td>
-  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve aparecer a mensagem "Tutoria cadastrada com sucesso".</td>
-  <td>Beatriz</td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário.</td>
+  <td>Igor</td>
  </tr>
 </table>
  
@@ -248,27 +245,27 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
   <tr>
-  <td>CT-08: Verificar a página de Tutores</td>
+  <td>CT-08: Verificar a página de Blog</td>
   <td>
    <ul>
-   <li>RF-008	O site deve permitir ao usuário visualizar os detalhes dos tutores.</li>
+   <li>RF-011	O sistema deve permitir a divulgação de eventos de adoção e feiras organizadas pelas ONGs.</li>
    </ul>
   </td>
-  <td>Verificar os detalhes dos Tutores e visualizar seus respectivos perfis. </td>
+  <td>Verificar o funcionamento da página blog </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em “Tutores”, no menu.</li>
-    <li>Visualizar a página "Tutores".</li>
-    <li>Na página "Tutores", é possível visualizar os perfis com foto e informações dos tutores, além da barra de pesquisa acima dos perfis.</li>
+    <li>Clicar em “Blog”, no menu.</li>
+    <li>Visualizar a página "Blog".</li>
+    <li>Na página "Blog", é possível visualizar os posts realizados no blog</li>
   
    </ul>
    </ol>
    </td>
-  <td>Deve ser possível visualizar todos os perfis de Tutores, com suas respectivas fotos e informações, além da visualização da barra de pesquisa acima dos perfis.</td>
-  <td>Pedro</td>
+  <td>Deve ser possível visualizar os posts, incluindo imagem, título, data da postagem/evento, local e texto da postagem, que pode ser visto em sua totalidade em "continue lendo", ou colapsado em "mostrar menos"</td>
+  <td>Julia</td>
  </tr>
 </table>
 
@@ -282,26 +279,20 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
   <tr>
-  <td>CT-09: Verificar a página de perfil de usuários cadastrados</td>
+  <td>CT-09: Verificar a página de perfil de Protetores</td>
   <td>
-   <ul>
-   <li>RF-009	O site deve permitir ao usuário verificar as informações registradas no cadastro na página Perfil, após fazer seu login.</li>
-   </ul>
   </td>
-  <td>Verificar se a página Perfil está apresentando as informações cadastradas pelo usuário corretamente. </td>
+  <td>Verificar se a página Protetores está funcionando corretamente </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Cadastre-se", no Menu.</li>
-    <li>Preencher o formulário e clicar em “Cadastrar”.</li>
-    <li>Visualizar a página Login.</li>
-    <li>Preencher seus dados e clicar em “Entrar”.</li>
-    <li>Visualizar a página Perfil.</li>
+    <li>Clicar em "Protetores", no Menu.</li>
+    <li>Visualizar a página Protetores.</li>
    </ol>
    </td>
-  <td>As informações registradas pelo usuário no momento do cadastro devem estar disponibilizadas na página Perfil.</td>
-  <td>Silvia</td>
+  <td>As ONGs cadastradas pelo usuário ao clicar em "Quero ajudar" e "Cadastrar uma ONG" devem aparecer em Protetores.</td>
+  <td>Matheus</td>
  </tr>
 </table>
