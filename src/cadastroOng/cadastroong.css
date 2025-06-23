@@ -1,21 +1,21 @@
-
+/* Reset e estilo base */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
-    background: #f2f2eb;
+  font-family: Arial, sans-serif;
+  background: #f2f2eb;
 }
 
 .container {
-    width: 1216px;
-    margin: auto;
-    padding:  20px;
+  width: 1216px;
+  margin: auto;
+  padding: 20px;
 }
 
-
+/* Header atualizado */
 header {
   font-family: "Orelega One", serif;
   width: 100%;
@@ -36,7 +36,6 @@ header {
   height: 75px;
   cursor: pointer;
 }
-
 
 .menu {
   display: flex;
@@ -90,62 +89,56 @@ a.Entrar:hover,
   background-color: #3c7e7a;
   transform: scale(1.05);
 }
-  font-family: "Orelega One", serif;
-  background-color: #f2f2eb;
-  border-bottom: 1px solid #ccc;
+
+.menu-link-active {
+  color: #888 !important;
+  cursor: default !important;
+  text-decoration: none !important;
+  pointer-events: none;
 }
-.container {
-  max-width: 1216px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.menu-link-active:hover {
+  color: #888 !important;
 }
-.logo img {
-  height: 75px;
-}
-.menu {
-  display: flex;
-  gap: 20px;
-}
-.menu-links {
-  display: flex;
-  gap: 30px;
-}
-.menu-links a, .Entrar {
-  color: #693421;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: "Orelega One", serif;
-}
-.btn-cadastro {
-  background-color: #54a09a;
-  color: white;
-  padding: 10px 24px;
-  border-radius: 25px;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 18px;
-}
+
 .dropdown {
   position: relative;
+  display: inline-block;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
-  padding: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  top: 25px;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  z-index: 1000;
+  top: 100%;
   left: 0;
-  border-radius: 5px;
-  z-index: 1;
+  padding: 10px 0;
 }
+
+.dropdown-content a {
+  color: #693421;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  font-family: "Orelega One", serif;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0eee6;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Estilos do formulário e layout seguem abaixo (não alterados) */
+
+
 main.split {
   display: flex;
   flex: 1;
