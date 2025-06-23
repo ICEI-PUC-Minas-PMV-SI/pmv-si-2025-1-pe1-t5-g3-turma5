@@ -7,12 +7,35 @@ const samplePets = [
   { id: 'ex3', nome: 'Luna', sexo: 'Fêmea', foto: 'luna.jpg',  especie: 'Gato',     idade: '3', porte: 'Pequeno', localizacao: 'Belo Horizonte',    nivelEnergia: 'Baixa', conviveCriancas: 'Sim', conviveAnimais: 'Não', castrado: 'Sim', historicoVac: 'V8',     comportamento: 'Dorminhoca', observacoes: '' }
 ];
 
+function isLocalStorageAvailable() {
+  try {
+    const testKey = '__test__';
+    localStorage.setItem(testKey, '1');
+    localStorage.removeItem(testKey);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
 function getFavoritos() {
-  return JSON.parse(localStorage.getItem('favoritosPetMatch')) || [];
+  if (!isLocalStorageAvailable()) return [];
+  try {
+    return JSON.parse(localStorage.getItem('favoritosPetMatch')) || [];
+  } catch (e) {
+    return [];
+  }
 }
 
 function setFavoritos(favs) {
-  localStorage.setItem('favoritosPetMatch', JSON.stringify(favs));
+  if (!isLocalStorageAvailable()) return;
+  try {
+    localStorage.setItem('favoritosPetMatch', JSON.stringify(favs));
+  } catch (e) {}
+}
+
+if (!isLocalStorageAvailable()) {
+  alert('Atenção: Seu navegador está em modo restrito ou você está acessando por file://. Favoritar pets pode não funcionar corretamente. Use um servidor local para melhor experiência.');
 }
 
 function criaPetCard(pet) {
