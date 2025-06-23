@@ -51,7 +51,7 @@ window.addEventListener("DOMContentLoaded", () => {
 // CSS para o modal
 document.querySelectorAll("a").forEach(link => {
   if (link.textContent.trim().toLowerCase() === "blog") {
-    link.setAttribute("href", "blog/blog.html");
+    link.setAttribute("href", "../blog/blog.html");
   }
 });
 document.querySelectorAll("a").forEach(link => {
