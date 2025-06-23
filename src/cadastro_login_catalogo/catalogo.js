@@ -1,10 +1,10 @@
 // catalogo.js
 
-// 0. Pets de exemplo para demonstração (use as imagens na mesma pasta)
+// 0. Pets de exemplo para demonstração (imagens bolt.jpg, mia.jpg e luna.jpg na mesma pasta)
 const samplePets = [
-  { id: 'ex1', nome: 'Bolt', sexo: 'Macho', foto: 'Bolt.png',    especie: 'Cachorro', idade: '2', porte: 'Médio', localizacao: 'Rio de Janeiro',      nivelEnergia: 'Alta', conviveCriancas: 'Sim', conviveAnimais: 'Sim', castrado: 'Sim', historicoVac: 'V8, V9', comportamento: 'Brincalhão', observacoes: '' },
-  { id: 'ex2', nome: 'Mia',  sexo: 'Fêmea', foto: 'Mia.png',     especie: 'Gato',     idade: '1', porte: 'Pequeno', localizacao: 'São Paulo',          nivelEnergia: 'Média', conviveCriancas: 'Não', conviveAnimais: 'Sim', castrado: 'Não', historicoVac: 'V7',     comportamento: 'Calma',     observacoes: '' },
-  { id: 'ex3', nome: 'Luna', sexo: 'Fêmea', foto: 'Luna.png',    especie: 'Gato',     idade: '3', porte: 'Pequeno', localizacao: 'Belo Horizonte',    nivelEnergia: 'Baixa', conviveCriancas: 'Sim', conviveAnimais: 'Não', castrado: 'Sim', historicoVac: 'V8',     comportamento: 'Dorminhoca', observacoes: '' }
+  { id: 'ex1', nome: 'Bolt', sexo: 'Macho', foto: 'bolt.jpg',  especie: 'Cachorro', idade: '2', porte: 'Médio', localizacao: 'Rio de Janeiro',   nivelEnergia: 'Alta', conviveCriancas: 'Sim', conviveAnimais: 'Sim', castrado: 'Sim', historicoVac: 'V8, V9', comportamento: 'Brincalhão', observacoes: '' },
+  { id: 'ex2', nome: 'Mia',  sexo: 'Fêmea', foto: 'mia.jpg',   especie: 'Gato',     idade: '1', porte: 'Pequeno', localizacao: 'São Paulo',         nivelEnergia: 'Média', conviveCriancas: 'Não', conviveAnimais: 'Sim', castrado: 'Não', historicoVac: 'V7',     comportamento: 'Calma',     observacoes: '' },
+  { id: 'ex3', nome: 'Luna', sexo: 'Fêmea', foto: 'luna.jpg',  especie: 'Gato',     idade: '3', porte: 'Pequeno', localizacao: 'Belo Horizonte',    nivelEnergia: 'Baixa', conviveCriancas: 'Sim', conviveAnimais: 'Não', castrado: 'Sim', historicoVac: 'V8',     comportamento: 'Dorminhoca', observacoes: '' }
 ];
 
 function getFavoritos() {
@@ -47,7 +47,7 @@ function criaPetCard(pet) {
 
   const fav = document.createElement('span');
   fav.classList.add('favoritar');
-  const favoritos = getFavoritos();
+  let favoritos = getFavoritos();
   if (favoritos.includes(pet.id)) {
     fav.innerHTML = '♥';
     fav.style.color = '#e74c3c';
@@ -85,11 +85,11 @@ function criaPetCard(pet) {
   return card;
 }
 
+// 1. Renderiza a lista de pets: exemplos sempre + cadastrados
 function renderizaListaPets() {
   const container = document.querySelector('.lista-pets');
   container.innerHTML = '';
 
-  // busca os cadastrados e adiciona os exemplos sempre
   const cadastrados = JSON.parse(localStorage.getItem('petsPetMatch')) || [];
   const pets = samplePets.concat(cadastrados);
 
@@ -117,7 +117,7 @@ function filtrarPets() {
     return true;
   });
 
-  container = document.querySelector('.lista-pets');
+  const container = document.querySelector('.lista-pets');
   container.innerHTML = '';
   filtrados.forEach(c => container.appendChild(c));
 }
@@ -128,6 +128,8 @@ document.getElementById('btnLimparFiltros')?.addEventListener('click', () => {
     .forEach(id => document.getElementById(id).value = '');
   renderizaListaPets();
 });
+
+window.addEventListener('DOMContentLoaded', renderizaListaPets);
 
 window.addEventListener('DOMContentLoaded', renderizaListaPets);
 
