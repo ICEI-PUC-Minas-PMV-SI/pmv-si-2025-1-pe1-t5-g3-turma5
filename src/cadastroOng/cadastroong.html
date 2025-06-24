@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cadastro de ONG - PetMatch</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="cadastroong.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de ONG – PetMatch</title>
+
+  <!-- Fonte e estilos compartilhados com o catálogo -->
+  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="cadastroong.css"/>
+
+  <!-- Apenas para o estado “ativo” no menu -->
   <style>
     .menu-link-active {
       color: #888 !important;
@@ -14,40 +17,35 @@
       text-decoration: none !important;
       pointer-events: none;
     }
-
     .menu-link-active:hover {
       color: #888 !important;
     }
   </style>
 </head>
-
 <body>
-
-
-
+  <!-- HEADER compartilhado com Catálogo -->
   <header>
-    <div class="container">
+    <div class="container header-container">
       <div class="logo">
         <a href="../home definitiva/home.html">
-          <img src="LOGO 4 (1).png" alt="PetMatch" />
+          <img src="LOGO 4 (1).png" alt="PetMatch"/>
         </a>
       </div>
       <nav class="menu">
         <div class="menu-links">
-          <a href="../cadastro_login_catalogo/catalogo.html">Quero adotar</a>
+          <a href="../cadastro_login_catalogo/catalogo.html" class="menu-link">Quero adotar</a>
           <div class="dropdown">
-            <a href="#">Quero ajudar</a>
+            <a href="#" class="menu-link">Quero ajudar</a>
             <div class="dropdown-content">
               <a href="../cadastroOng/cadastroong.html" class="menu-link-active">Cadastrar uma Ong</a>
-              <a href="../cadastroVoluntario/cadastrovoluntario.html">Me voluntariar</a>
+              <a href="../cadastroVoluntario/cadastrovoluntario.html" class="menu-link">Me voluntariar</a>
             </div>
           </div>
-          <a href="../blog/blog.html">Blog</a>
-          <a href="../pagina protetores/protetores.html">Protetores</a>
-
+          <a href="../blog/blog.html" class="menu-link">Blog</a>
+          <a href="../pagina protetores/protetores.html" class="menu-link">Protetores</a>
         </div>
         <div class="menu-usuario">
-          <!-- This div will be populated by active-menu.js -->
+          <!-- populated by active-menu.js -->
         </div>
       </nav>
     </div>
@@ -55,68 +53,71 @@
 
   <main class="split">
     <div class="imagem">
-      <img src="fundo-ong.jpg" alt="Cachorros no fundo">
+      <img src="fundo-ong.jpg" alt="Cachorros no fundo"/>
     </div>
     <div class="form-container">
       <form class="form-ong">
-        <div>
-
-        </div>
         <h1 class="cadastro-titulo-form">Cadastre sua ONG</h1>
         <p class="sub">Informações obrigatórias*</p>
+
         <div class="form-esquerda">
           <label>Nome da instituição*</label>
-          <input type="text" placeholder="Ong Petmatch" />
-          <label>Email*</label>
-          <input type="email" placeholder="exemplo@gmail.com" />
-          <label>Telefone*</label>
-          <input type="tel" placeholder="((13) 9999-9999 )" />
-          <label>CEP*</label>
-          <input type="text" placeholder="11111-111" />
-          <label>Endereço*</label>
-          <input type="text" placeholder="Rua da Liberadde" />
-          <label>CNPJ*</label>
-          <input type="text" id="cnpjInput" maxlength="18" placeholder="00.000.000/0000-00" />
-          <label>Cidade / Estado*</label>
-          <input type="text" placeholder="Santos-Sp" />
+          <input type="text" placeholder="Ong PetMatch" required/>
 
+          <label>Email*</label>
+          <input type="email" placeholder="exemplo@gmail.com" required/>
+
+          <label>Telefone*</label>
+          <input type="tel" placeholder="(13) 9999-9999" required/>
+
+          <label>CEP*</label>
+          <input type="text" placeholder="11111-111" required/>
+
+          <label>Endereço*</label>
+          <input type="text" placeholder="Rua da Liberdade" required/>
+
+          <label>CNPJ*</label>
+          <input type="text" id="cnpjInput" maxlength="18" placeholder="00.000.000/0000-00" required/>
+
+          <label>Cidade / Estado*</label>
+          <input type="text" placeholder="Santos-SP" required/>
 
           <label>Foto da ONG</label>
           <div class="file-upload-container">
-            <input type="file" id="fotoOngInput" name="fotoVoluntario" accept="image/*" />
+            <input type="file" id="fotoOngInput" accept="image/*"/>
             <div class="file-upload-visual">
               <span class="upload-icon">+</span>
             </div>
-            <img id="imagePreview" src="#" alt="Prévia da imagem" />
+            <img id="imagePreview" src="#" alt="Prévia da imagem"/>
             <button type="button" id="removeImageButton" class="remove-image-button" title="Remover imagem">×</button>
           </div>
         </div>
 
         <div class="form-direita">
-          <label>Busca por pessoas para voluntariado ?</label>
+          <label>Busca por pessoas para voluntariado?</label>
           <div class="radio-group">
-            <label><input type="radio" name="voluntario"> SIM</label>
-            <label><input type="radio" name="voluntario"> NÃO</label>
+            <label><input type="radio" name="voluntario" required/> SIM</label>
+            <label><input type="radio" name="voluntario"/> NÃO</label>
           </div>
 
           <label>A ONG está legalmente registrada?</label>
           <div class="radio-group">
-            <label><input type="radio" name="registrada"> SIM</label>
-            <label><input type="radio" name="registrada"> NÃO</label>
+            <label><input type="radio" name="registrada" required/> SIM</label>
+            <label><input type="radio" name="registrada"/> NÃO</label>
           </div>
 
           <label>Qual a missão da ONG?</label>
-          <input type="text" placeholder="A nossa missão ..." />
+          <input type="text" placeholder="A nossa missão ..." required/>
 
           <label>Responsável Legal</label>
-          <input type="text" placeholder="Nome completo" />
+          <input type="text" placeholder="Nome completo" required/>
 
           <label>Telefone do Responsável Legal</label>
-          <input type="tel" placeholder="Telefone: (13) 91234-6678" />
+          <input type="tel" placeholder="(13) 91234-6678" required/>
 
           <label>Privacidade & Termos</label>
-          <textarea rows="5"
-            readonly>**Política de Privacidade e Termos de Uso – PetMatch**
+          <textarea rows="5" readonly>
+**Política de Privacidade e Termos de Uso – PetMatch**
 
 Ao se cadastrar, você concorda com esta Política e Termos. A PetMatch, controladora dos seus dados, compromete-se com sua privacidade e a proteção de seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD).
 
@@ -165,10 +166,10 @@ A PetMatch se reserva o direito de suspender ou cancelar contas que violem estes
 **7. Alterações:**
 Esta Política e Termos podem ser atualizados. Notificaremos sobre mudanças significativas.
 
-Ao marcar a caixa "Eu concordo com os termos", você declara que leu e concorda integralmente com esta Política de Privacidade e Termos de Uso.</textarea>
+Ao marcar a caixa "Eu concordo com os termos", você declara que leu e concorda integralmente com esta Política de Privacidade e Termos de Uso.
+          </textarea>
 
-
-          <label><input type="checkbox" /> Eu concordo com os termos</label>
+          <label><input type="checkbox" required/> Eu concordo com os termos</label>
         </div>
 
         <div class="form-submit">
@@ -179,76 +180,13 @@ Ao marcar a caixa "Eu concordo com os termos", você declara que leu e concorda 
   </main>
 
   <footer>
-    <p><a href="../sobreNos/sobre.html">Sobre</a> | <a href="#">Política de Privacidade</a></p>
+    <p>
+      <a href="../sobreNos/sobre.html">Sobre</a> |
+      <a href="../politicaPrivacidade/politica.html">Política de Privacidade</a>
+    </p>
   </footer>
+
+  <script src="cadastro-ong.js"></script>
+  <script src="../active-menu.js"></script>
 </body>
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const fotoOngInput = document.getElementById('fotoOngInput');
-    const imagePreview = document.getElementById('imagePreview');
-    const fileUploadVisual = document.querySelector('.file-upload-visual');
-    const removeImageButton = document.getElementById('removeImageButton');
-
-    fotoOngInput.addEventListener('change', function (event) {
-      const file = event.target.files[0];
-
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = function (e) {
-          imagePreview.src = e.target.result;
-          imagePreview.style.display = 'block';
-          if (fileUploadVisual) {
-            fileUploadVisual.style.display = 'none';
-          }
-          removeImageButton.style.display = 'block';
-        }
-        reader.readAsDataURL(file);
-      } else {
-        clearImagePreviewAndInput();
-      }
-    });
-
-    removeImageButton.addEventListener('click', function () {
-      clearImagePreviewAndInput();
-    });
-
-    function clearImagePreviewAndInput() {
-      imagePreview.src = '#';
-      imagePreview.style.display = 'none';
-      if (fileUploadVisual) {
-        fileUploadVisual.style.display = 'flex';
-      }
-      removeImageButton.style.display = 'none';
-
-      fotoOngInput.value = '';
-    }
-  });
-
-  // Mascara CNPJ
-  document.addEventListener('DOMContentLoaded', function () {
-    const cnpjInput = document.getElementById('cnpjInput');
-
-    if (cnpjInput) {
-      cnpjInput.addEventListener('input', function (e) {
-        let value = e.target.value;
-        value = value.replace(/\D/g, '');
-        value = value.substring(0, 14);
-        // Adiciona o primeiro ponto (ex: 12 -> 12, 123 -> 12.3)
-        value = value.replace(/^(\d{2})(\d)/, '$1.$2');
-        // Adiciona o segundo ponto (ex: 12.345 -> 12.345, 12.3456 -> 12.345.6)
-        value = value.replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3');
-        // Adiciona a barra (ex: 12.345.678 -> 12.345.678, 12.345.6789 -> 12.345.678/9)
-        value = value.replace(/^(\d{2})\.(\d{3})\.(\d{3})(\d)/, '$1.$2.$3/$4');
-        value = value.replace(/^(\d{2})\.(\d{3})\.(\d{3})\/(\d{4})(\d{1,2})$/, '$1.$2.$3/$4-$5');
-        e.target.value = value;
-      });
-    }
-  });
-</script>
-<script src="cadastro-ong.js"></script>
-
-<script src="../active-menu.js"></script>
-
 </html>
