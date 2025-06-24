@@ -382,3 +382,32 @@ a.Entrar:hover,
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* === Footer padrão blog === */
+footer {
+  height: 36px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center; 
+  max-width: 600px; 
+  width: 100%; 
+}
+
+footer a {
+  font-family: 'Assistant', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

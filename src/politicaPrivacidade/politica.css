@@ -124,6 +124,35 @@ header {
   background-color: #f0eee6;
 }
 
+/* === Footer padrão blog === */
+footer {
+  height: 36px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center; 
+  max-width: 600px; 
+  width: 100%; 
+}
+
+.footer-container a {
+  font-family: 'Assistant', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
 /* PRINCIPAL */
 .container {
   max-width: 1216px;
@@ -159,33 +188,4 @@ header {
 .container li {
   margin-bottom: 8px;
   line-height: 1.5;
-}
-
-/* FOOTER */
-footer {
-  height: 48px;
-  background: orange;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-container {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-  justify-content: center;
-  max-width: 600px;
-  width: 100%;
-}
-
-footer a {
-  font-family: 'Assistant', sans-serif;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
