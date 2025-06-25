@@ -50,7 +50,7 @@ header {
 .menu-links {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
   flex: 1;
   height: 75px; /* Garantindo altura consistente */
   align-items: center;
