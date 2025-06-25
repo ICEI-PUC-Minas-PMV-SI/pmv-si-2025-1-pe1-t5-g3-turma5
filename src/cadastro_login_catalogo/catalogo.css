@@ -411,3 +411,21 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.btn-sair {
+  background: none;
+  border: none;
+  color: #693421;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Orelega One", serif;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 0;
+}
+
+.btn-sair:hover {
+  color: #54a09a;
+  transform: scale(1.05);
+}
+
