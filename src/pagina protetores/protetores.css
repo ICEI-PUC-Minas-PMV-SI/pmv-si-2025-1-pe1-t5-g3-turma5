@@ -250,4 +250,13 @@ a.Entrar:hover,
   color: #54a09a;
   transform: scale(1.05);
 }
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
 
