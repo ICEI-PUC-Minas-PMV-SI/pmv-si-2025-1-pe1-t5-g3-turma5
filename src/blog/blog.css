@@ -1,142 +1,148 @@
 /* Reset */
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Assistant', sans-serif;
-    background-color: #f2f2eb;
-    position: relative;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .orelega-one-regular {
-    font-family: "Orelega One", serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
-  
+body {
+  font-family: 'Assistant', sans-serif;
+  background-color: #f2f2eb;
+  position: relative;
+}
+
+.orelega-one-regular {
+  font-family: "Orelega One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Header */
- header {
-    font-family: "Orelega One", serif;
-    width: 100%;
-    background-color: #f2f2eb;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .header-container {
-    max-width: 1216px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .logo img {
-    height: 75px;
-    cursor: pointer;
-  }
-  
-  .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px;
-  }
-  
-  .menu-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px; /* espaçamento igual entre os itens */
-    flex: 1;
-  }
-  
-  .menu-links a, a.Entrar {
-    color: #693421;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "Orelega One", serif;
-  }
-  
-  .btn-cadastro {
-    background-color: teal;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Orelega One", serif;
-    font-weight: bold;
-  }
-  
-  .btn-cadastro:hover {
-    background-color: #005f5f;
-  }
-  
+header {
+  font-family: "Orelega One", serif;
+  width: 100%;
+  background-color: #f2f2eb;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-container {
+  max-width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo img {
+  height: 75px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex: 1;
+  height: 75px; /* Garantindo altura consistente */
+  align-items: center;
+}
+
+.menu-links a,
+a.Entrar {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  color: #693421;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Orelega One", serif;
+}
+
+/* Botão Cadastro */
+.btn-cadastro {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Orelega One", serif;
+  font-weight: bold;
+}
+
+.btn-cadastro:hover {
+  background-color: #005f5f;
+}
+
 /* Main */
-  .container {
-    max-width: 1216px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
 
 main {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 .card {
-    background: white;
-    border-radius: 4px;
-    overflow: hidden;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .card-img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .card-content {
-    padding: 20px;
+  padding: 20px;
 }
 
 .card-content h2 {
-    color: teal;
-    margin-bottom: 10px;
+  color: teal;
+  margin-bottom: 10px;
 }
 
 .card-info {
-    font-size: 14px;
-    color: gray;
-    margin-bottom: 20px;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
 }
 
 .card-text {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .read-more {
-    color: teal;
-    text-decoration: none;
-    font-weight: bold;
+  color: teal;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .read-more:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
+/* Footer */
 footer {
   height: 36px;
   background: orange;
@@ -149,9 +155,9 @@ footer {
   display: flex;
   gap: 32px;
   align-items: center;
-  justify-content: center; 
-  max-width: 600px; 
-  width: 100%; 
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
 }
 
 footer a {
@@ -164,7 +170,8 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-/* Modal de Detalhes */
+
+/* Modal */
 .modal {
   position: fixed;
   top: 0;
@@ -185,7 +192,7 @@ footer a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
@@ -197,7 +204,7 @@ footer a:hover {
   width: 90%;
   max-height: 90%;
   overflow-y: auto;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   z-index: 1001;
 }
 
@@ -210,13 +217,13 @@ footer a:hover {
   font-size: 24px;
   cursor: pointer;
 }
-/* Dropdown container */
+
+/* Dropdown */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Link principal */
 .menu-link {
   color: #693421;
   text-decoration: none;
@@ -227,13 +234,12 @@ footer a:hover {
   transition: color 0.3s ease;
 }
 
-/* Caixa oculta com os itens */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
   min-width: 200px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   z-index: 1000;
   top: 100%;
@@ -241,7 +247,6 @@ footer a:hover {
   padding: 10px 0;
 }
 
-/* Cada link interno */
 .dropdown-content a {
   color: #693421;
   text-decoration: none;
@@ -255,7 +260,6 @@ footer a:hover {
   background-color: #f0eee6;
 }
 
-/* Mostra o dropdown quando passar o mouse */
 .dropdown:hover .dropdown-content {
   display: block;
 }
