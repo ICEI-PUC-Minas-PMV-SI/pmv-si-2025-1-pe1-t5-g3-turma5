@@ -11,16 +11,40 @@
 
   <!-- Apenas para o estado “ativo” no menu -->
   <style>
-    .menu-link-active {
-      color: #888 !important;
-      cursor: default !important;
-      text-decoration: none !important;
-      pointer-events: none;
-    }
-    .menu-link-active:hover {
-      color: #888 !important;
-    }
-  </style>
+  .menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .menu-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .menu-link-active {
+    color: #888 !important;
+    cursor: default !important;
+    text-decoration: none !important;
+    pointer-events: none;
+  }
+
+  .menu-link-active:hover {
+    color: #888 !important;
+  }
+
+  .container.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    flex-shrink: 0;
+  }
+</style>
+
 </head>
 <body>
   <!-- HEADER ATUALIZADO (igual ao catálogo) -->
@@ -54,7 +78,7 @@
 
   <main class="split">
     <div class="imagem">
-      <img src="fundo-voluntario.jpg" alt="Voluntário no fundo"/>
+      <img src="fundo-ong.jpg" alt="Voluntário no fundo"/>
     </div>
     <div class="form-container">
       <form class="form-ong">
