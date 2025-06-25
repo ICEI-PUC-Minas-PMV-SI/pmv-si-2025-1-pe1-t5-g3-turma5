@@ -31,7 +31,7 @@ header {
 .menu-links {
   display: flex;
   justify-content: center;
-  gap: 7px;
+  gap: 15px;
   flex: 1;
 }
 
