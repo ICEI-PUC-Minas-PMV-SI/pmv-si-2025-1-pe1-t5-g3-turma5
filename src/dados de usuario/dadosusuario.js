@@ -46,38 +46,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderizarFavoritos() {
     favoritosContainer.innerHTML = ""; // Limpa os cards existentes
-    // Corrigido: busca os ids dos favoritos na chave correta
-    const favoritosIds = JSON.parse(localStorage.getItem("favoritosPetMatch")) || [];
-    // Busca todos os pets cadastrados
-    const pets = (JSON.parse(localStorage.getItem("petsPetMatch")) || []).concat(
-      [
-        { id: 'ex1', nome: 'Bolt', sexo: 'Macho', foto: 'bolt.jpg', especie: 'Cachorro', idade: '2', porte: 'Médio', localizacao: 'Rio de Janeiro', nivelEnergia: 'Alta', conviveCriancas: 'Sim', conviveAnimais: 'Sim', castrado: 'Sim', historicoVac: 'V8, V9', comportamento: 'Brincalhão', observacoes: '' },
-        { id: 'ex2', nome: 'Mia', sexo: 'Fêmea', foto: 'mia.jpg', especie: 'Gato', idade: '1', porte: 'Pequeno', localizacao: 'São Paulo', nivelEnergia: 'Média', conviveCriancas: 'Não', conviveAnimais: 'Sim', castrado: 'Não', historicoVac: 'V7', comportamento: 'Calma', observacoes: '' },
-        { id: 'ex3', nome: 'Luna', sexo: 'Fêmea', foto: 'luna.jpg', especie: 'Gato', idade: '3', porte: 'Pequeno', localizacao: 'Belo Horizonte', nivelEnergia: 'Baixa', conviveCriancas: 'Sim', conviveAnimais: 'Não', castrado: 'Sim', historicoVac: 'V8', comportamento: 'Dorminhoca', observacoes: '' }
-      ]
-    );
-    const favoritos = favoritosIds.map(id => pets.find(p => p.id === id)).filter(Boolean);
+    const favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
 
     if (favoritos.length === 0) {
       favoritosContainer.innerHTML = "<p>Você ainda não favoritou nenhum pet.</p>";
     } else {
-      favoritos.forEach((pet, index) => {
+      favoritos.forEach((pet, index) => { // Adicionado index para identificação
         const petCard = document.createElement("div");
         petCard.classList.add("pet-card");
-        const petIdentifier = pet.id || pet.nome || index;
+        // Usar um ID único do pet se disponível, caso contrário, o nome ou índice.
+        // Para este exemplo, usaremos o índice, mas um ID do pet é mais robusto.
+        // Se o pet tiver uma propriedade como pet.id, use-a.
+        const petIdentifier = pet.id || pet.nome || index; 
+
         petCard.innerHTML = `
           <div class="pet-image">
-            <img src="${pet.foto || pet.imagem || 'animalteste.jpg'}" alt="${pet.nome}">
+            <img src="${pet.imagem || '../assets/images/default-pet-placeholder.png'}" alt="${pet.nome}">
           </div>
           <div class="pet-icons">
-            <img class="icon gender" src="${getGenderIcon(pet.sexo)}" alt="${pet.sexo}">
+            <img class="icon gender" src="${getGenderIcon(pet.genero)}" alt="${pet.genero}">
             <img class="icon favorite" src="favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 16.png" alt="Favorito">
           </div>
           <div class="pet-info">
             <div class="pet-name">${pet.nome}</div>
             <div class="pet-location">${pet.localizacao}</div>
           </div>
-          <button class="adopt-button" onclick="window.location.href='../cadastro_login_catalogo/pet-detalhes.html?id=${encodeURIComponent(pet.id)}'">Quero adotar</button>
+          <button class="adopt-button" onclick="window.location.href='../cadastro_login_catalogo/catalogo.html'">Quero adotar</button>
           <button class="remove-favorite-button" data-pet-identifier="${petIdentifier}">Remover Favorito</button>
         `;
         favoritosContainer.appendChild(petCard);

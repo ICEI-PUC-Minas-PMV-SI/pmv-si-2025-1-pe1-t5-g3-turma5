@@ -298,7 +298,7 @@
 }
 
 footer {
-  height: 36px;
+  height: 48px;
   background: orange;
   display: flex;
   align-items: center;
@@ -389,10 +389,4 @@ h3 {
 /* Mostra o dropdown quando passar o mouse */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.menu-links > a,
-.menu-links > .dropdown {
-  display: flex;
-  align-items: center;
 }

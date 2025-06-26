@@ -51,12 +51,12 @@ window.addEventListener("DOMContentLoaded", () => {
 // CSS para o modal
 document.querySelectorAll("a").forEach(link => {
   if (link.textContent.trim().toLowerCase() === "blog") {
-    link.setAttribute("href", "../blog/blog.html");
+    link.setAttribute("href", "blog/blog.html");
   }
 });
 document.querySelectorAll("a").forEach(link => {
   if (link.textContent.trim().toLowerCase() === "quero adotar") {
-    link.setAttribute("href", "../cadastro_login_catalogo/catalogo.html");
+    link.setAttribute("href", "catalogo.html");
   }
 });
 document.addEventListener('DOMContentLoaded', () => {

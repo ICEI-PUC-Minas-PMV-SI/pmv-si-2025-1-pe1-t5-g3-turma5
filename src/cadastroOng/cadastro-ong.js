@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("ongsPetMatch", JSON.stringify(lista));
 
     alert("ONG cadastrada com sucesso!");
-    window.location.href = "../pagina%20protetores/protetores.html";
+    window.location.href = "protetores.html";
   });
 });
 document.querySelectorAll("a").forEach(link => {
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('ongsPetMatch', JSON.stringify(ongs));
 
     // Redireciona
-    window.location.href = '../pagina%20protetores/protetores.html';
+    window.location.href = '../pagina protetores/protetores.html';
   });
 
   function toBase64(file) {
