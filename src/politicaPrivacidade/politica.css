@@ -88,6 +88,34 @@ header {
   transform: scale(1.05);
 }
 
+.btn-sair {
+  background: none;
+  color: #693421;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: "Orelega One", serif;
+  font-weight: bold;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-sair:hover {
+  background: #f0eee6;
+  color: #32928d;
+}
+
+.nome-usuario {
+  color: #693421;
+  font-family: "Orelega One", serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+
 .dropdown {
   position: relative;
   display: flex;
@@ -122,35 +150,6 @@ header {
 
 .dropdown-content a:hover {
   background-color: #f0eee6;
-}
-
-/* === Footer padrão blog === */
-footer {
-  height: 36px;
-  background: orange;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-container {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-  justify-content: center; 
-  max-width: 600px; 
-  width: 100%; 
-}
-
-.footer-container a {
-  font-family: 'Assistant', sans-serif;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.footer-container a:hover {
-  text-decoration: underline;
 }
 
 /* PRINCIPAL */
@@ -188,4 +187,33 @@ footer {
 .container li {
   margin-bottom: 8px;
   line-height: 1.5;
+}
+
+/* FOOTER */
+footer {
+  height: 48px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+footer a {
+  font-family: 'Assistant', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
