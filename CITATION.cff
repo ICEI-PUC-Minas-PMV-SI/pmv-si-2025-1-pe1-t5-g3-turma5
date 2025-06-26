@@ -2,32 +2,40 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Web Application Template
-message: >-
+title: PetMatch
+message: PetMatch Adote com amor.
   Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Faria, M. H. C.
+    family-names: Matheus Henrique Caitano Faria
+    email: matheus.caitano@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
+  - given-names: Marques, L. H. R.
+    family-names: Luiz Henrique Ribeiro Marques
+    email: luiz.marques.1582523@sga.pucminas.br
+    affiliation: PUC Minas
+- given-names: Laine J. R.
+    family-names: Júlia Rabelo Laine
+    email: jlaine@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names:  Lemos Tavares
+    name-particle: 'C '
+    family-names: Clóvis Lemos Tavares
     name-suffix: Prof.
-    email: hugo@pucminas.br
+    email: clovis.lemos@sga.pucminas.br
     affiliation: PUC Minas
     orcid: 'https://orcid.org/0000-0002-6193-3205'
-repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
-abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+repository-code: 
+ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t5-g3-turma5
+abstract: **PetMatch** é uma plataforma digital desenvolvida para facilitar a adoção responsável de animais, conectando ONGs, adotantes e voluntários de forma simples, intuitiva e eficiente. A ferramenta oferece recursos como cadastro de pets para adoção, sistema de recomendação com base no perfil do adotante, geolocalização de eventos e feiras, além da possibilidade de atuação de doadores independentes e voluntários no apoio às instituições de proteção animal.
+ 
+Com foco em usabilidade, empatia e impacto social, o PetMatch busca reduzir o número de animais abandonados e contribuir para um futuro mais digno e afetuoso entre humanos e pets.
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
   - Template
-date-released: '2024-06-23'
+date-released: '2025-06-26'
