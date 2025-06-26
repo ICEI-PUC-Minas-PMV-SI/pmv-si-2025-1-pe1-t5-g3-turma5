@@ -9,7 +9,8 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 
 
-https://github.com/user-attachments/assets/cb4b299d-0a65-4d8f-9d87-e1d8375baefa
+https://github.com/user-attachments/assets/114322f6-c4c2-4d21-ba02-dddfc2e6c04e
+
 
 
 
