@@ -91,7 +91,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-007	O sistema deve permitir que usuários salvem itens como favoritos visíveis apenas para eles.</li>
    </ul>
   </td>
-  <td>Verificar se todas as informações referentes aos livros estão disponíveis na página Livros</td>
+  <td>Verificar se o usuário consegue visualizar os pets disponíveis para adoção, filtrá-los e favoritá-los</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
