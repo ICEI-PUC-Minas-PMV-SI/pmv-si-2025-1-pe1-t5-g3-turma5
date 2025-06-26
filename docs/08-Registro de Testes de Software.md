@@ -1,154 +1,145 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/tree/main/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/tree/main/documentos/08-Plano%20de%20Testes%20de%20Software.md"> Plano de Testes de Software</a>
-
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
   <li> CT-01: Verificar o funcionamento dos links da página Home.
 
-  Responsável: Beatriz.
+  Responsável: Luiz Henrique Marques.
 
-https://user-images.githubusercontent.com/100447878/174854223-c457e6ca-a9ce-48d3-aba9-b9e617132f31.mov
+
+
+https://github.com/user-attachments/assets/cb4b299d-0a65-4d8f-9d87-e1d8375baefa
+
+
 
   </li>
   <hr>
   
   <li> CT-02: Verificar o funcionamento do filtro de pesquisa.
 
-  Responsável: Beatriz.
+  Responsável: Luiz Henrique Marques.
     
-  <p>Filtro da página Livros:</p>
+  <p>Filtro de gênero:</p>
     
-![Captura de Tela 2022-06-21 às 13 50 15](https://user-images.githubusercontent.com/100447878/174855824-6afdd9f8-9d77-4e2d-b20b-bd62977586ea.png)
+![filtro femea](https://github.com/user-attachments/assets/92eb379f-65c8-4e90-88e9-974209fd8a58)
+![filtromacho](https://github.com/user-attachments/assets/a87f1cc8-86ef-4bcb-94ba-f7dadadc99dc)
 
-  <p>Filtro da página Tutorias:</p>
-    
-![Captura de Tela 2022-06-21 às 13 56 27](https://user-images.githubusercontent.com/100447878/174856220-f128f9d7-0e78-46e9-a80c-56545101d0d2.png)
 
-  <p> No caso abaixo, o termo digitado não fazia parte das informações cadastradas dos livros. Assim, não houve retorno de livros registrados.</p>
+  <p>Filtro por idade:</p>
     
-![Captura de Tela 2022-06-21 às 13 56 09](https://user-images.githubusercontent.com/100447878/174856402-2a4e38b6-bf79-4ec0-8b3e-26063f99f4e1.png)
+  ![filtroidade](https://github.com/user-attachments/assets/2dd67c66-6419-40ba-9312-bf413847122a)
+  ![filtroidade2](https://github.com/user-attachments/assets/72ff9767-9652-401d-9fe6-c37801465fa5)
+
+  <p>Filtro por localização:</p>
+
+  ![filtroloc](https://github.com/user-attachments/assets/de2eadf5-d635-49a7-aa23-47c6165f151d)
+  ![filtroloc2](https://github.com/user-attachments/assets/4fd283df-45aa-4ee1-acc5-8aa2dca28d09)
 
   </li>
   <hr>
   
-  <li> CT-03: Verificar detalhes dos livros.
+  <li> CT-03: Verificar detalhes dos pets.
 
-Responsável: Silvia.
+Responsável: Júlia.
       
-![Captura de Tela 2022-06-21 às 14 00 59 (2)](https://user-images.githubusercontent.com/100447878/174856950-9d27862f-5d4d-407b-95f3-70e9b152dc49.png)
+![detalhes](https://github.com/user-attachments/assets/59e4f1e0-8a6e-4a51-ba67-c389a583ecad)
+
 
   </li>
   <hr>
   
   <li> CT-04: Verificar o cadastro de usuários.
    
-  Responsável: Pedro. 
+  Responsável: Matheus. 
    
    <p>Usuário preenche os campos "Senha" e "Confirmaçāo de Senha" com valores diferentes.</p>
       
-  ![Screen Shot 2022-06-01 at 15 14 13](https://user-images.githubusercontent.com/81182674/171474105-64632f30-5457-4366-852d-68145a28b2b3.png)
+  ![cadastrosenhadivergente](https://github.com/user-attachments/assets/8f8d727c-bd8d-4dbc-8b4b-2e1239e13924)
+
     
   </li>
   
   <p>Verificar se o usuário foi cadastrado.</p>
     
- ![Screen Shot 2022-06-01 at 14 57 22](https://user-images.githubusercontent.com/81182674/171472447-009af414-aaa4-45fb-abb8-e76a23430875.png)
+ ![cadastrorealizadp](https://github.com/user-attachments/assets/c834c9fa-eed3-45e3-b3b9-79e93bb7d655)
+
     
   <p> Informações armazenadas no LocalStorage após usuário se cadastrar.</p>
     
-  ![Screen Shot 2022-06-01 at 15 20 21](https://user-images.githubusercontent.com/81182674/171475137-83469b08-7778-4391-a725-ad4b3b3d2a77.png)
+  ![localstoragecadastro](https://github.com/user-attachments/assets/04fc65d5-9a96-4f77-b479-820b6d1f5a73)
+
   
   </li>
   <hr>
   
   <li> CT-05: Verificar o login de usuários.
 
-  Responsável: Ana. 
+  Responsável: Luiz. 
   
    <p>Usuário preenche os campos "Email" e "Senha" com valores diferentes do usuário já cadastrado.</p>
   
-  ![8d33f1db-e0a7-4e41-b956-fde91ac31c63](https://user-images.githubusercontent.com/98122346/174851091-f201d92d-02f9-45c0-8b00-e66358158d8d.jpg)
+  ![login incorreto](https://github.com/user-attachments/assets/cde68acc-31ab-4029-84da-93170da986d6)
 
 
   <p>Se as informações de usuário forem válidas, o login será bem sucedido.</p>
   
- ![c555f947-3721-4eee-ad97-5042ce9e6c5e](https://user-images.githubusercontent.com/98122346/174853350-696ef44f-cbc9-4cad-a0e5-7c51d3a67d4b.jpg)
+ ![login feito](https://github.com/user-attachments/assets/88fd02be-c1d3-4348-a806-6fdb799f40dd)
 
 
   <p> Informações armazenadas no LocalStorage do usuário logado.</p>
   
-  ![af4b5123-e45f-4356-bd53-11b5c75cb78f](https://user-images.githubusercontent.com/98122346/174853422-4572412d-173c-457b-ade9-7d7fc997445e.jpg)
+  ![localstorageuserlogado](https://github.com/user-attachments/assets/d1422d62-c316-4321-97b0-a6231e3a2532)
+
+  <p> No exemplo abaixo, o usuário tenta fazer o cadastro de maneira incorreta, sem preencher todos os campos, o que não finaliza o cadastro.</p>
+
+![formsincompletotutor](https://github.com/user-attachments/assets/4f458a91-7e52-4122-af25-059c37e8ff9c)
+
+  <p> No exemplo abaixo, o usuário favorita um pet, o que retorna para o seu perfil.</p>
+
+![favoritou](https://github.com/user-attachments/assets/47e60da6-eda5-4594-a42c-39172bd38eda)
+![favoritos](https://github.com/user-attachments/assets/aeec8f0c-39ad-43a1-ac77-d9611cd55a46)
 
 
   </li>
   <hr>
   
-  <li> CT-06: Verificar o cadastro de livros.
+  <li> CT-06: Verificar o cadastro de pets.
 
-  Responsável: Pedro. 
+  Responsável: Luiz. 
     
-  <p> Mensagem de confirmação de cadastro do livro.</p>
+  <p> Mensagem de confirmação de cadastro do pet.</p>
   
-![Captura de Tela 2022-06-21 às 14 15 34](https://user-images.githubusercontent.com/100447878/174859699-0de48c01-faa1-4362-ac5c-f5a9a337e3c8.png)
+![cadastropetfeito](https://github.com/user-attachments/assets/185a559b-e036-4fe0-9d68-552b4d00882b)
 
-  <p> Registro disponível na página Livros após o usuário cadastrar o livro.</p>
+  <p> Pet disponível na página catalogo após o usuário cadastrar o pet.</p>
   
-![Captura de Tela 2022-06-21 às 15 51 10](https://user-images.githubusercontent.com/100447878/174876692-ebcfba83-0af7-4449-a378-f0e8091227f4.png)  
+  ![1](https://github.com/user-attachments/assets/514c6acd-9bb9-4938-becf-71eea2d3e6e3)
 
-  <p> Informações armazenadas no LocalStorage após o cadastro do livro.</p>
+  <p> Informações armazenadas no LocalStorage após o cadastro do pet.</p>
   
-  ![Captura de Tela 2022-06-21 às 15 52 42](https://user-images.githubusercontent.com/100447878/174876742-e0b01a57-7503-4719-8a87-3ea07d68964c.png)
+  ![localstoragepet](https://github.com/user-attachments/assets/e3318b1b-b3d5-46f5-8ac4-6e03400b6d75)
 
-  <p> No exemplo abaixo, o usuário tenta fazer o cadastro do livro de maneira incorreta, sem preencher todos os campos, o que não finaliza o cadastro.</p>
+  <p> No exemplo abaixo, o usuário tenta fazer o cadastro do pet de maneira incorreta, sem preencher todos os campos, o que não finaliza o cadastro.</p>
   
-![Captura de Tela 2022-06-21 às 14 14 40](https://user-images.githubusercontent.com/100447878/174859774-24a2ca76-c97f-4ae9-9741-418d536a0e53.png)
+![formsincompleto](https://github.com/user-attachments/assets/ae5286c1-acf5-4493-a548-9fc4b0e739cb)
 
-![Captura de Tela 2022-06-21 às 14 14 59](https://user-images.githubusercontent.com/100447878/174859799-2f7805e2-ff98-415a-aff3-4898d27c879a.png)
+  <p> No exemplo abaixo, o usuário tenta fazer o cadastro do pet de maneira incorre, sem estar logado, o que não finaliza o cadastro.</p>
+
+![cadastropet sem estar logado](https://github.com/user-attachments/assets/6787efdb-dd14-4cfd-9c75-50ab11557441)
+
 
   </li>
   <hr>
   
-  <li> CT-07: Verificar o cadastro de tutores.
-
-  Responsável: João. 
-    
-  <p> Mensagem de confirmação de cadastro do tutor.</p>
-  
-   ![image](https://user-images.githubusercontent.com/101907319/174912389-5ad42624-397a-4ac5-b3c9-add2b13880cb.png)
-
-  <p> Registro disponível na página Tutorias após o usuário cadastrar o tutor.</p>
-  
- ![image](https://user-images.githubusercontent.com/101907319/174912436-6ecd1e3d-16db-4ed9-b0f7-e4174ce22d2b.png)
-
-  <p> Informações armazenadas no LocalStorage após o usuário cadastrar o tutor.</p>
-  
- ![image](https://user-images.githubusercontent.com/101907319/175368958-66502c11-634a-4a4f-bddb-2c29aa80a969.png)
-  
-  <p> No exemplo abaixo, o usuário tenta fazer o cadastro do tutor de maneira incorreta, sem preencher todos os campos, o que não finaliza o cadastro.</p>
-  
-  ![image](https://user-images.githubusercontent.com/101907319/175367758-cc3efcaa-42b5-4e2c-b300-39f19bbebb20.png)
-
-  ![image](https://user-images.githubusercontent.com/101907319/175367829-3ecabdbf-e559-4377-a7fa-5e4a5ef4b36e.png)
-
-  </li>
-  <hr>
-  
-  <li> CT-08: Verificar a página de Tutores.
-
-  Responsável: Pedro. 
-    
-  ![Captura de Tela 2022-06-20 às 18 40 10](https://user-images.githubusercontent.com/100447878/174680988-44d52b0f-3397-4744-86bc-7246bff79957.png)
-
-  <hr>
   
   <li> CT-09: Verificar a página de perfil de usuários cadastrados.
 
-  Responsável: Ana. 
+  Responsável: Luiz. 
 
   
-![Captura de Tela 2022-06-20 às 10 50 33](https://user-images.githubusercontent.com/100447878/174616506-d93f95de-3bd7-44f2-9323-d8bf0b3b4b2b.png)
+![meu perfil](https://github.com/user-attachments/assets/db693bf4-b65c-4164-8fc9-0af436feb542)
+
 
 
   </li>
@@ -158,4 +149,4 @@ Responsável: Silvia.
 
 ## Avaliação
 
-Os testes de software mostraram que os requisitos priorizados foram atendidos, funcionando como planejado. Para as próximas iterações, serão acrescentadas melhorias no layout e responsividade da aplicação.
+Os testes de software confirmaram que os requisitos priorizados foram devidamente atendidos, com funcionamento conforme o esperado. Nas próximas iterações, estão previstas melhorias no layout e na responsividade da aplicação para aprimorar a experiência do usuário.
